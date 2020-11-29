@@ -32,9 +32,9 @@ search = driver.find_element_by_name("search")
 headings = []
 people = []
 try:
-    for page in range(1, 5):
+    for page in range(1, 1000):
         
-        results = WebDriverWait(driver, 10).until(
+        results = WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.ID, "show_all"))
         )
         results.click()
@@ -74,13 +74,16 @@ except:
     print("In Except")
     #driver.quit()
 print("headings", headings)
-print("people", people)
+print("people", len(people))
 # search = driver.find_element_by_id("show_all")
 # search.send_keys(Keys.RETURN)
 
 # search = driver.find_element_by_class("next")
 # search.send_keys(Keys.RETURN)
 
-
+import csv
+with open('test2.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(people)
 
 #driver.quit()

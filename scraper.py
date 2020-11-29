@@ -15,14 +15,14 @@ print(driver.title)
 #driver.maximize_window()
 
 search = driver.find_element_by_id("census_year")
-search.send_keys("1901")
+search.send_keys("1851")
 search.send_keys(Keys.RETURN)
 search.send_keys(Keys.RETURN)
 
-search = driver.find_element_by_id("county19011911")
-search.send_keys("Kerry")
-search.send_keys(Keys.RETURN)
-search.send_keys(Keys.RETURN)
+# search = driver.find_element_by_id("county1851")
+# search.send_keys("Kerry")
+# search.send_keys(Keys.RETURN)
+# search.send_keys(Keys.RETURN)
 
 search = driver.find_element_by_id("age")
 search.send_keys("23")
@@ -82,7 +82,7 @@ print("people", len(people))
 # search.send_keys(Keys.RETURN)
 
 import csv
-with open('test2.csv', 'w', newline='') as file:
+with open('test_1851.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(people)
 

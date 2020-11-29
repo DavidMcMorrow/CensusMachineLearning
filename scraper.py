@@ -32,17 +32,14 @@ search = driver.find_element_by_name("search")
 headings = []
 people = []
 try:
-    for i in range(0, 1):
+    for page in range(1, 5):
         
-        print("i = ", i)
         results = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.ID, "results_options"))
+            EC.presence_of_element_located((By.ID, "show_all"))
         )
         results.click()
-        table = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "odd"))
-        )
-        if i == 0:
+        
+        if page == 1:
             for j in range(1, 16):
                 xpath = "//table/thead/tr/th[" + str(j) + "]"
                 #print("xpath", xpath)

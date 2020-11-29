@@ -82,7 +82,7 @@ print("people", len(people))
 # search.send_keys(Keys.RETURN)
 
 import csv
-with open('test2.csv', 'w', newline='') as file:
+with open('test1.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(people)
 

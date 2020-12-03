@@ -3,6 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import sklearn
 
+def generalisingSmallClasses(className, newValue, threshold):
+    uniqueValues = list(set(className))
+    for i in uniqueValues:
+        if((className == i).sum() < threshold):
+            className[className == i] = newValue
+    return className
+    
 df = pd.read_csv("test_1851.csv", comment='#')
 surname = df.iloc[:,0]
 forename = df.iloc[:,1]
@@ -14,6 +21,8 @@ relation_to_head_of_household = df.iloc[:,6]
 marital_status = df.iloc[:,7]
 occupation = df.iloc[:,8]
 education = df.iloc[:,9] #this is what we are trying to classify
+
+occupation = generalisingSmallClasses(occupation, "other", 50)
 
 #make education contain only 3 possible numbers - 1 for read and write, 2 for read only, 3 for neither, and 4 for undefined
 number_of_each_Class = [0,0,0,0]
@@ -107,29 +116,29 @@ print("shape of X", X.shape)
 # array X is 7465 x 9
 
 # test model
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, roc_curve
-
-indices = np.arange(len(surname))
-training_data, test_data = train_test_split(indices, test_size=0.2)
-
-model = LogisticRegression(max_iter=10000, C=1000, penalty="l2")
-model.fit(X[training_data], labels[training_data])
-label_predictions = model.predict(X[test_data])
-correct_predictions = 0
-increment = 0
-for test_datapoints in test_data:
-    if(label_predictions[increment] == labels[test_datapoints]):
-        correct_predictions += 1
-    increment += 1
-
-accuracy = correct_predictions/ np.size(label_predictions)
-print("\n\nLogistic regression model metrics")
-print("accuracy", accuracy)
-LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
-print("confusion Matrix")
-print(LR_confusion_matrix)
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.model_selection import train_test_split
+# from sklearn.metrics import confusion_matrix, roc_curve
+# 
+# indices = np.arange(len(surname))
+# training_data, test_data = train_test_split(indices, test_size=0.2)
+# 
+# model = LogisticRegression(max_iter=10000, C=1000, penalty="l2")
+# model.fit(X[training_data], labels[training_data])
+# label_predictions = model.predict(X[test_data])
+# correct_predictions = 0
+# increment = 0
+# for test_datapoints in test_data:
+    # if(label_predictions[increment] == labels[test_datapoints]):
+        # correct_predictions += 1
+    # increment += 1
+# 
+# accuracy = correct_predictions/ np.size(label_predictions)
+# print("\n\nLogistic regression model metrics")
+# print("accuracy", accuracy)
+# LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
+# print("confusion Matrix")
+# print(LR_confusion_matrix)
 
 
 # ----------------------------------------------------------------------------------------------------------

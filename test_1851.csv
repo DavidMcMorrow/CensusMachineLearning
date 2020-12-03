@@ -1,4 +1,4 @@
-Surname,Forename,Family ID,Parish,Age,Sex,Relation to head of household,Marital Status,Occupation,Education
+#Surname,Forename,Family ID,Parish,Age,Sex,Relation to head of household,Marital Status,Occupation,Education
 Frizzle,Betty,47,Aghagallon,27,Female,Daughter,Not Married,Sawing,read and write
 O'Neal,Susanna,23,Aghagallon,27,Female,Head Of Family,Married,Farmer,read only
 Bodal,Ann,24,Aghagallon,27,Female,Daughter,Not Married,Labourer,neither
@@ -5803,7 +5803,11 @@ Lorimer,Hugh,15,Killead,22,Male,Servant,Not Married,Labourer,read and write
 McCullough,Mary,6,Killead,22,Female,Daughter,Not Married,Spinster,read and write
 Steele,Jane,10,Killead,22,Female,Daughter,Not Married,Flowerer/Gardener,read only
 Taghony,Mary,8,Killead,22,Female,,Not Married,Laundress,read and write
+<<<<<<< HEAD
 Clarke,Rosey,27,Killead,22,Female,Head Of Family,Married,No Employment,read and write
+=======
+Clarke,Rosey,27,Killead,22,Female,Head Of Family,Married,Widow,read and write
+>>>>>>> ad6216c85339663d85eeef77123c94210dd34381
 Brown,Henry,29,Killead,22,Male,Head Of Family,Married,Farmer,read and write
 Brown,Martha,29,Killead,22,Female,Wife,Married,Spinster,read and write
 McKendry,Henry,10,Killead,22,Male,Son,Not Married,Shoe Maker,read and write

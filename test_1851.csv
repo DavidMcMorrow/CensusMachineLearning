@@ -1,4 +1,4 @@
-Surname,Forename,Family ID,Parish,County,Age,Sex,Relation to head of household,Marital Status,Occupation,Education,,not specified
+#Surname,Forename,Family ID,Parish,County,Age,Sex,Relation to head of household,Marital Status,Occupation,Education
 Frizzle,Betty,47,Aghagallon,Antrim,27,Female,Daughter,Not Married,Sawing,read and write,,
 O'Neal,Susanna,23,Aghagallon,Antrim,27,Female,Head Of Family,Married,Farmer,read only,,
 Bodal,Ann,24,Aghagallon,Antrim,27,Female,Daughter,Not Married,Labourer,neither,,

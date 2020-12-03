@@ -81,31 +81,30 @@ print("labels", len(labels))
 
 #generate feature vector (pass in a array for each of the raw data columns (should all be the same length))
 X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation])
-
 # test model
-# from sklearn.linear_model import LogisticRegression
-# from sklearn.model_selection import train_test_split
-# from sklearn.metrics import confusion_matrix, roc_curve
-# 
-# indices = np.arange(len(surname))
-# training_data, test_data = train_test_split(indices, test_size=0.2)
-# 
-# model = LogisticRegression(max_iter=10000, C=1000, penalty="l2")
-# model.fit(X[training_data], labels[training_data])
-# label_predictions = model.predict(X[test_data])
-# correct_predictions = 0
-# increment = 0
-# for test_datapoints in test_data:
-    # if(label_predictions[increment] == labels[test_datapoints]):
-        # correct_predictions += 1
-    # increment += 1
-# 
-# accuracy = correct_predictions/ np.size(label_predictions)
-# print("\n\nLogistic regression model metrics")
-# print("accuracy", accuracy)
-# LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
-# print("confusion Matrix")
-# print(LR_confusion_matrix)
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, roc_curve
+
+indices = np.arange(len(labels))
+training_data, test_data = train_test_split(indices, test_size=0.2)
+
+model = LogisticRegression(max_iter=10000, C=100, penalty="l2")
+model.fit(X[training_data], labels[training_data])
+label_predictions = model.predict(X[test_data])
+correct_predictions = 0
+increment = 0
+for test_datapoints in test_data:
+    if(label_predictions[increment] == labels[test_datapoints]):
+        correct_predictions += 1
+    increment += 1
+
+accuracy = correct_predictions/ np.size(label_predictions)
+print("\n\nLogistic regression model metrics")
+print("accuracy", accuracy)
+LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
+print("confusion Matrix")
+print(LR_confusion_matrix)
 
 
 # ----------------------------------------------------------------------------------------------------------
@@ -113,3 +112,6 @@ X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relat
 #similar accuracy when trained with sex, relation to head of household, surname, marital status ,parish as all
 #just surname does similar
 #altering max iterations and C value with all got an accuracy of 68% (66% when ran again)
+#was only ever training on approx. 7000 points because of the way I was splitting the data, achived accuracy of 70+ but takes a hell of a lot longer
+#73% on just [surname, forename, family_ID, relation_to_head_of_household, sex]
+# 74% with all

@@ -40,6 +40,8 @@ for i in range(0, 8):
     temp.extend(labels)
 labels = np.array(temp)
 
+
+#---------------------------------------------------------------- begining of function --------------------------------------------------------------------
 #create a single list containing all words used as inputs
 all_fields = []
 all_fields.extend(surname.astype('U'))
@@ -79,7 +81,6 @@ print("marital status", marital_status_input.shape)
 print("occupation", occupation_input.shape)
 print("education", education.shape)
 print("\n\nlables", len(labels))
-
 # they are all of type class 'scipy.sparse.csr.csr_matrix'
 
 # test for if it worked
@@ -87,10 +88,10 @@ print("\n\nlables", len(labels))
 #     if(family_ID[i] == 1):
 #         print("input ", i, "   ", family_ID_input[i])
         
-# # create input vector 
+# # create input vector
 X = []
 # for i in range(0, len(surname)):
-#     X.extend([surname_input[i], forename_input[i], parish_input[i], age_input[i], sex_input[i], relation_to_head_of_household_input[i], marital_status_input[i], occupation_input[i]])
+#     X.append([surname_input[i], forename_input[i], parish_input[i], age_input[i], sex_input[i], relation_to_head_of_household_input[i], marital_status_input[i], occupation_input[i]])
 X.extend(surname_input)
 X.extend(forename_input)
 X.extend(parish_input)
@@ -102,7 +103,7 @@ X.extend(occupation_input)
 
 X = np.array(X)
 print("shape of X", X.shape)
-
+#---------------------------------------------------------------- end of function --------------------------------------------------------------------
 # array X is 7465 x 9
 
 # test model
@@ -135,3 +136,4 @@ print(LR_confusion_matrix)
 #items which seemed to have biggest effect -> sex, relation to head of household, surname,marital status (kind of), parish kind of
 #similar accuracy when trained with sex, relation to head of household, surname, marital status ,parish as all
 #just surname does similar
+#altering max iterations and C value with all got an accuracy of 68% (66% when ran again)

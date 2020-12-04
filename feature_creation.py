@@ -16,16 +16,24 @@ def produce_input_feature(list_of_inputs):
     vectorizer = CountVectorizer()
     vectorizer.fit(all_fields)
 
+    people = []
+    for i in range(0, len(list_of_inputs[0])):
+        person = []
+        for input in list_of_inputs:
+            person.append(str(input[i]))
+            person.append(" ")
+        people.append(("".join(person)))
+
+    # print("people", len(people), "person", len(person))
+    # print(people[0], "\n",people[5], "\n",people[10],)
+
     feature_inputs = []
-    i = 0
-    for input in list_of_inputs:
-        feature_inputs.append(vectorizer.transform(surname.astype('U')).toarray())
-        print(vectorizer.transform(surname.astype('U')).toarray().shape)
-        i += 1
+    for person in people:
+        feature_inputs.append(vectorizer.transform([person]).toarray())
 
     X = []
     for input in feature_inputs:
-        X.extend(input)
+        X.append(input[0])
 
     X = np.array(X)
     print("shape of X", X.shape)
@@ -71,12 +79,7 @@ for i in range(0, len(education)):
         number_of_each_Class[3] +=1
 
 print("count", number_of_each_Class)
-
-#make the number of labels match the size of the flattened input
-temp = []
-for i in range(0, 9):
-    temp.extend(labels)
-labels = np.array(temp)
+labels = np.array(labels)
 print("labels", len(labels))
 
 #generate feature vector (pass in a array for each of the raw data columns (should all be the same length))

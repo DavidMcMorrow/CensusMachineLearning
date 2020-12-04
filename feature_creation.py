@@ -115,3 +115,5 @@ print(LR_confusion_matrix)
 #was only ever training on approx. 7000 points because of the way I was splitting the data, achived accuracy of 70+ but takes a hell of a lot longer
 #73% on just [surname, forename, family_ID, relation_to_head_of_household, sex]
 # 74% with all
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#created a new issue, this is defenitly not the way to go, think I have to create a single sparce vector for each person (each on will have 9 1's/ #of features used)

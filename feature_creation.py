@@ -52,6 +52,18 @@ occupation = df.iloc[:,8]
 education = df.iloc[:,9] #this is what we are trying to classify
 
 occupation = generalisingSmallClasses(occupation, "other", 50)
+#surname = generalisingSmallClasses(surname, "other", 4)
+
+print("len(list(set(surname)))", len(list(set(surname))))
+print("len(list(set(forename)))", len(list(set(forename))))
+print("len(list(set(family_ID)))", len(list(set(family_ID))))
+print("len(list(set(age)))", len(list(set(age))))
+print("len(list(set(sex)))", len(list(set(sex))))
+print("len(list(set(relation_to_head_of_household)))", len(list(set(relation_to_head_of_household))))
+print("len(list(set(marital_status)))", len(list(set(marital_status))))
+print("len(list(set(occupation)))", len(list(set(occupation))))
+print("len(list(set(education)))", len(list(set(education))))
+
 
 #make education contain only 3 possible numbers - 1 for read and write, 2 for read only, 3 for neither, and 4 for undefined
 number_of_each_Class = [0,0,0,0]
@@ -71,40 +83,41 @@ for i in range(0, len(education)):
         number_of_each_Class[3] +=1
 
 print("count", number_of_each_Class)
-
+print("labels", labels)
 #make the number of labels match the size of the flattened input
 temp = []
 for i in range(0, 9):
     temp.extend(labels)
 labels = np.array(temp)
+print("labels", labels)
 print("labels", len(labels))
 
 #generate feature vector (pass in a array for each of the raw data columns (should all be the same length))
 X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation])
 # test model
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, roc_curve
-
-indices = np.arange(len(labels))
-training_data, test_data = train_test_split(indices, test_size=0.2)
-
-model = LogisticRegression(max_iter=10000, C=100, penalty="l2")
-model.fit(X[training_data], labels[training_data])
-label_predictions = model.predict(X[test_data])
-correct_predictions = 0
-increment = 0
-for test_datapoints in test_data:
-    if(label_predictions[increment] == labels[test_datapoints]):
-        correct_predictions += 1
-    increment += 1
-
-accuracy = correct_predictions/ np.size(label_predictions)
-print("\n\nLogistic regression model metrics")
-print("accuracy", accuracy)
-LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
-print("confusion Matrix")
-print(LR_confusion_matrix)
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.model_selection import train_test_split
+# from sklearn.metrics import confusion_matrix, roc_curve
+# 
+# indices = np.arange(len(labels))
+# training_data, test_data = train_test_split(indices, test_size=0.2)
+# 
+# model = LogisticRegression(max_iter=10000, C=100, penalty="l2")
+# model.fit(X[training_data], labels[training_data])
+# label_predictions = model.predict(X[test_data])
+# correct_predictions = 0
+# increment = 0
+# for test_datapoints in test_data:
+    # if(label_predictions[increment] == labels[test_datapoints]):
+        # correct_predictions += 1
+    # increment += 1
+# 
+# accuracy = correct_predictions/ np.size(label_predictions)
+# print("\n\nLogistic regression model metrics")
+# print("accuracy", accuracy)
+# LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
+# print("confusion Matrix")
+# print(LR_confusion_matrix)
 
 
 # ----------------------------------------------------------------------------------------------------------
@@ -117,3 +130,5 @@ print(LR_confusion_matrix)
 # 74% with all
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #created a new issue, this is defenitly not the way to go, think I have to create a single sparce vector for each person (each on will have 9 1's/ #of features used)
+
+

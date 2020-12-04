@@ -40,8 +40,13 @@ def produce_input_feature(list_of_inputs):
 
     return X
 
+def printUniqueClassess(classes):
+    for i in classes:
+        print("unique", len(list(set(i))))
+
 def generalisingSmallClasses(className, newValue, threshold):
     uniqueValues = list(set(className))
+    # print("unique", uniqueValues)
     for i in uniqueValues:
         if((className == i).sum() < threshold):
             className[className == i] = newValue
@@ -58,6 +63,12 @@ relation_to_head_of_household = df.iloc[:,6]
 marital_status = df.iloc[:,7]
 occupation = df.iloc[:,8]
 education = df.iloc[:,9] #this is what we are trying to classify
+
+
+#printUniqueClassess([surname, forename])
+printUniqueClassess([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation])
+
+#print("unique", len(list(set(surname))))
 
 occupation = generalisingSmallClasses(occupation, "other", 50)
 
@@ -83,32 +94,33 @@ labels = np.array(labels)
 print("labels", len(labels))
 
 #generate feature vector (pass in a array for each of the raw data columns (should all be the same length))
+
 X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation])
 # test model
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, roc_curve
-
-indices = np.arange(len(labels))
-training_data, test_data = train_test_split(indices, test_size=0.2)
-
-model = LogisticRegression(max_iter=10000, C=100, penalty="l2")
-model.fit(X[training_data], labels[training_data])
-label_predictions = model.predict(X[test_data])
-correct_predictions = 0
-increment = 0
-for test_datapoints in test_data:
-    if(label_predictions[increment] == labels[test_datapoints]):
-        correct_predictions += 1
-    increment += 1
-
-accuracy = correct_predictions/ np.size(label_predictions)
-print("\n\nLogistic regression model metrics")
-print("accuracy", accuracy)
-LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
-print("confusion Matrix")
-print(LR_confusion_matrix)
-
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.model_selection import train_test_split
+# from sklearn.metrics import confusion_matrix, roc_curve
+# 
+# indices = np.arange(len(labels))
+# training_data, test_data = train_test_split(indices, test_size=0.2)
+# 
+# model = LogisticRegression(max_iter=10000, C=100, penalty="l2")
+# model.fit(X[training_data], labels[training_data])
+# label_predictions = model.predict(X[test_data])
+# correct_predictions = 0
+# increment = 0
+# for test_datapoints in test_data:
+    # if(label_predictions[increment] == labels[test_datapoints]):
+        # correct_predictions += 1
+    # increment += 1
+# 
+# accuracy = correct_predictions/ np.size(label_predictions)
+# print("\n\nLogistic regression model metrics")
+# print("accuracy", accuracy)
+# LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
+# print("confusion Matrix")
+# print(LR_confusion_matrix)
+# 
 
 # ----------------------------------------------------------------------------------------------------------
 #items which seemed to have biggest effect -> sex, relation to head of household, surname,marital status (kind of), parish kind of

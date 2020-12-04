@@ -71,6 +71,18 @@ printUniqueClassess([surname, forename, family_ID, parish, age, sex, relation_to
 #print("unique", len(list(set(surname))))
 
 occupation = generalisingSmallClasses(occupation, "other", 50)
+#surname = generalisingSmallClasses(surname, "other", 4)
+
+print("len(list(set(surname)))", len(list(set(surname))))
+print("len(list(set(forename)))", len(list(set(forename))))
+print("len(list(set(family_ID)))", len(list(set(family_ID))))
+print("len(list(set(age)))", len(list(set(age))))
+print("len(list(set(sex)))", len(list(set(sex))))
+print("len(list(set(relation_to_head_of_household)))", len(list(set(relation_to_head_of_household))))
+print("len(list(set(marital_status)))", len(list(set(marital_status))))
+print("len(list(set(occupation)))", len(list(set(occupation))))
+print("len(list(set(education)))", len(list(set(education))))
+
 
 #make education contain only 3 possible numbers - 1 for read and write, 2 for read only, 3 for neither, and 4 for undefined
 number_of_each_Class = [0,0,0,0]

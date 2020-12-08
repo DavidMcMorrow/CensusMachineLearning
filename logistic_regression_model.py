@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import sklearn
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import cross_val_score
+import time
 
 def logistic_regression_model_cross_validation(X_train, Y_train):
 
@@ -33,6 +34,20 @@ def logistic_regression_model_cross_validation(X_train, Y_train):
     plt.xlabel("C Values")
     plt.ylabel("Mean Accuracy")
     plt.xscale("log")
+    plt.legend()
     plt.show()
 
+def train_chosen_logistic_regression_model(X_train, Y_train, C_value):
+    start = time.time()
+    model = LogisticRegression(penalty="l2", C=C_value, max_iter=2000)
+    model.fit(X_train, Y_train)
+    end = time.time()
+    print("time to complete logistic regression training for C value ", C_value, " - ", round(end-start))
+    return model
 
+
+#notes
+#C = 0.001 gives similar accuracy to the baseline 56%
+#as C increases accuracy and precision increase quiclky to a C value of 1 before increasing more slowly
+#time taken to train each model increases as the C value increases
+#C = 1 seems to be the best choice for the model (everything after that is likely overfitting without much of an increase in performance)

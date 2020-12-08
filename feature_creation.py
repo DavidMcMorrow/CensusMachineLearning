@@ -110,13 +110,12 @@ print("confusion Matrix")
 print(LR_confusion_matrix)
 
 
-# ----------------------------------------------------------------------------------------------------------
+# ------------------------------------------- NOTES ---------------------------------------------------------------
 #items which seemed to have biggest effect -> sex, relation to head of household, surname,marital status (kind of), parish kind of
 #similar accuracy when trained with sex, relation to head of household, surname, marital status ,parish as all
 #just surname does similar
 #altering max iterations and C value with all got an accuracy of 68% (66% when ran again)
 #was only ever training on approx. 7000 points because of the way I was splitting the data, achived accuracy of 70+ but takes a hell of a lot longer
 #73% on just [surname, forename, family_ID, relation_to_head_of_household, sex]
-# 74% with all
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-#created a new issue, this is defenitly not the way to go, think I have to create a single sparce vector for each person (each on will have 9 1's/ #of features used)
+#74% with all
+# training on all data now with each person recieving a single sparce vector containing all of their data

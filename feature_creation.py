@@ -7,7 +7,6 @@ import math as m
 from linearSVM import *
 from baseline import *
 from logistic_regression_model import *
-from sklearn.metrics import accuracy_score, average_precision_score
 
 def produce_input_feature(list_of_inputs):
 

@@ -6,6 +6,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import math as m
 from linearSVM import *
 from baseline import *
+from logistic_regression_model import *
 
 def produce_input_feature(list_of_inputs):
 
@@ -114,6 +115,12 @@ optimsedLinearSVMClassifier(X[training_data], labels[training_data], X[test_data
 
 #randomBaselineClassifier(labels)
 #modeBaselineClassifier(labels)
+X_train = X[training_data]
+Y_train = labels[training_data]
+X_test = X[test_data]
+Y_test = labels[test_data]
+
+logistic_regression_model_cross_validation(X_train, Y_train)
 
 # model = LogisticRegression(max_iter=10000, C=100, penalty="l2")
 # model.fit(X[training_data], labels[training_data])

@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 import math as m
+from linearSVM import *
 
 def produce_input_feature(list_of_inputs):
 
@@ -40,9 +41,9 @@ def produce_input_feature(list_of_inputs):
 
     return X
 
-def printUniqueClassess(classes):
-    for i in classes:
-        print("unique", len(list(set(i))))
+def printUniqueClassess(classesData, classesNames):
+    for i in range(0, len(classesData) - 1):
+        print("Number of unique", classesNames[i], "values =", len(list(set(classesData[i]))))
 
 def generalisingSmallClasses(className, newValue, threshold):
     uniqueValues = list(set(className))
@@ -64,25 +65,13 @@ marital_status = df.iloc[:,7]
 occupation = df.iloc[:,8]
 education = df.iloc[:,9] #this is what we are trying to classify
 
-
-#printUniqueClassess([surname, forename])
-printUniqueClassess([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation])
+array_of_all_data = [surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
+#printUniqueClassess(array_of_all_data, ["surname", "forename", "family_ID", "parish", "age", "sex", "relation_to_head_of_household", "marital_status", "occupation"])
 
 #print("unique", len(list(set(surname))))
 
 occupation = generalisingSmallClasses(occupation, "other", 50)
 #surname = generalisingSmallClasses(surname, "other", 4)
-
-print("len(list(set(surname)))", len(list(set(surname))))
-print("len(list(set(forename)))", len(list(set(forename))))
-print("len(list(set(family_ID)))", len(list(set(family_ID))))
-print("len(list(set(age)))", len(list(set(age))))
-print("len(list(set(sex)))", len(list(set(sex))))
-print("len(list(set(relation_to_head_of_household)))", len(list(set(relation_to_head_of_household))))
-print("len(list(set(marital_status)))", len(list(set(marital_status))))
-print("len(list(set(occupation)))", len(list(set(occupation))))
-print("len(list(set(education)))", len(list(set(education))))
-
 
 #make education contain only 3 possible numbers - 1 for read and write, 2 for read only, 3 for neither, and 4 for undefined
 number_of_each_Class = [0,0,0,0]
@@ -108,14 +97,20 @@ print("labels", len(labels))
 #generate feature vector (pass in a array for each of the raw data columns (should all be the same length))
 
 X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation])
+
+
 # test model
 # from sklearn.linear_model import LogisticRegression
-# from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 # from sklearn.metrics import confusion_matrix, roc_curve
 # 
-# indices = np.arange(len(labels))
-# training_data, test_data = train_test_split(indices, test_size=0.2)
-# 
+indices = np.arange(len(labels))
+training_data, test_data = train_test_split(indices, test_size=0.2)
+
+#linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
+
+optimsedLinearSVMClassifier(X[training_data], labels[training_data], X[test_data], labels[test_data])
+
 # model = LogisticRegression(max_iter=10000, C=100, penalty="l2")
 # model.fit(X[training_data], labels[training_data])
 # label_predictions = model.predict(X[test_data])

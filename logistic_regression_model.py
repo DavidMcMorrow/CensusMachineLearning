@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import sklearn
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import cross_val_score
+from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.metrics import accuracy_score
 import time
 
 def logistic_regression_model_cross_validation(X_train, Y_train):
@@ -37,14 +39,19 @@ def logistic_regression_model_cross_validation(X_train, Y_train):
     plt.legend()
     plt.show()
 
-def train_chosen_logistic_regression_model(X_train, Y_train, C_value):
+def train_chosen_logistic_regression_model(X_train, Y_train, C_value, X_test, Y_test):
     start = time.time()
     model = LogisticRegression(penalty="l2", C=C_value, max_iter=2000)
     model.fit(X_train, Y_train)
     end = time.time()
     print("time to complete logistic regression training for C value ", C_value, " - ", round(end-start))
-    return model
+    pred = model.predict(X_test)
+    printingConfusionMatrix(Y_test, pred)
 
+def printingConfusionMatrix(yTest, yPred):
+	print(classification_report(yTest, yPred))
+	print(confusion_matrix(yTest, yPred))
+	print("accuracy", accuracy_score(yTest, yPred))
 
 #notes
 #C = 0.001 gives similar accuracy to the baseline 56%

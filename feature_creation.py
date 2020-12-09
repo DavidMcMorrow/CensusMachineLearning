@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 import math as m
+from linearSVM import *
+from baseline import *
 
 def produce_input_feature(list_of_inputs):
 
@@ -40,8 +42,13 @@ def produce_input_feature(list_of_inputs):
 
     return X
 
+def printUniqueClassess(classesData, classesNames):
+    for i in range(0, len(classesData) - 1):
+        print("Number of unique", classesNames[i], "values =", len(list(set(classesData[i]))))
+
 def generalisingSmallClasses(className, newValue, threshold):
     uniqueValues = list(set(className))
+    # print("unique", uniqueValues)
     for i in uniqueValues:
         if((className == i).sum() < threshold):
             className[className == i] = newValue
@@ -59,7 +66,13 @@ marital_status = df.iloc[:,7]
 occupation = df.iloc[:,8]
 education = df.iloc[:,9] #this is what we are trying to classify
 
+array_of_all_data = [surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
+#printUniqueClassess(array_of_all_data, ["surname", "forename", "family_ID", "parish", "age", "sex", "relation_to_head_of_household", "marital_status", "occupation"])
+
+#print("unique", len(list(set(surname))))
+
 occupation = generalisingSmallClasses(occupation, "other", 50)
+#surname = generalisingSmallClasses(surname, "other", 4)
 
 #make education contain only 3 possible numbers - 1 for read and write, 2 for read only, 3 for neither, and 4 for undefined
 number_of_each_Class = [0,0,0,0]
@@ -83,32 +96,42 @@ labels = np.array(labels)
 print("labels", len(labels))
 
 #generate feature vector (pass in a array for each of the raw data columns (should all be the same length))
-X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation])
-# test model
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, roc_curve
 
+X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation])
+
+
+# test model
+# from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+# from sklearn.metrics import confusion_matrix, roc_curve
+# 
 indices = np.arange(len(labels))
 training_data, test_data = train_test_split(indices, test_size=0.2)
 
-model = LogisticRegression(max_iter=10000, C=100, penalty="l2")
-model.fit(X[training_data], labels[training_data])
-label_predictions = model.predict(X[test_data])
-correct_predictions = 0
-increment = 0
-for test_datapoints in test_data:
-    if(label_predictions[increment] == labels[test_datapoints]):
-        correct_predictions += 1
-    increment += 1
+#linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
 
-accuracy = correct_predictions/ np.size(label_predictions)
-print("\n\nLogistic regression model metrics")
-print("accuracy", accuracy)
-LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
-print("confusion Matrix")
-print(LR_confusion_matrix)
+optimsedLinearSVMClassifier(X[training_data], labels[training_data], X[test_data], labels[test_data])
 
+#randomBaselineClassifier(labels)
+#modeBaselineClassifier(labels)
+
+# model = LogisticRegression(max_iter=10000, C=100, penalty="l2")
+# model.fit(X[training_data], labels[training_data])
+# label_predictions = model.predict(X[test_data])
+# correct_predictions = 0
+# increment = 0
+# for test_datapoints in test_data:
+    # if(label_predictions[increment] == labels[test_datapoints]):
+        # correct_predictions += 1
+    # increment += 1
+# 
+# accuracy = correct_predictions/ np.size(label_predictions)
+# print("\n\nLogistic regression model metrics")
+# print("accuracy", accuracy)
+# LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
+# print("confusion Matrix")
+# print(LR_confusion_matrix)
+# 
 
 # ------------------------------------------- NOTES ---------------------------------------------------------------
 #items which seemed to have biggest effect -> sex, relation to head of household, surname,marital status (kind of), parish kind of

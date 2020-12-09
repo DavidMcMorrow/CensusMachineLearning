@@ -8,6 +8,7 @@ from linearSVM import *
 from baseline import *
 from kernel_SVM import *
 from logistic_regression_model import *
+from knn import *
 from sklearn.metrics import accuracy_score, average_precision_score
 
 def produce_input_feature(list_of_inputs):
@@ -121,7 +122,9 @@ print("-------------------------------------- Kernal SVM -----------------------
 kernel_SVM_model_cross_validation(X[training_data], labels[training_data])
 train_chosen_kernel_SVM_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
-# print("-------------------------------------- KNN ------------------------------------------------------------")
+print("-------------------------------------- KNN ------------------------------------------------------------")
+knn_model_cross_validation(X[training_data], labels[training_data])
+train_chosen_knn_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
 
 # ------------------------------------------- NOTES ---------------------------------------------------------------

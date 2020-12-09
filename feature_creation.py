@@ -28,9 +28,6 @@ def produce_input_feature(list_of_inputs):
             person.append(" ")
         people.append(("".join(person)))
 
-    # print("people", len(people), "person", len(person))
-    # print(people[0], "\n",people[5], "\n",people[10],)
-
     feature_inputs = []
     for person in people:
         feature_inputs.append(vectorizer.transform([person]).toarray())
@@ -76,7 +73,7 @@ array_of_all_data = [surname, forename, family_ID, parish, age, sex, relation_to
 occupation = generalisingSmallClasses(occupation, "other", 50)
 #surname = generalisingSmallClasses(surname, "other", 4)
 
-#make education contain only 3 possible numbers - 1 for read and write, 2 for read only, 3 for neither, and 4 for undefined
+#make education contain only 4 possible numbers - 1 for read and write, 2 for read only, 3 for neither, and 4 for undefined
 number_of_each_Class = [0,0,0,0]
 labels = [0] * len(education)
 for i in range(0, len(education)):
@@ -98,44 +95,30 @@ labels = np.array(labels)
 print("labels", len(labels))
 
 #generate feature vector (pass in a array for each of the raw data columns (should all be the same length))
-
 X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation])
 
 
 # test model
-# from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-# from sklearn.metrics import confusion_matrix, roc_curve
-# 
+
 indices = np.arange(len(labels))
 training_data, test_data = train_test_split(indices, test_size=0.2)
 
-#linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
+print("-------------------------------------baseline models --------------------------------------------------")
+randomBaselineClassifier(labels)
+modeBaselineClassifier(labels)
 
+print("-------------------------------------- Linear SVM -----------------------------------------------------")
+#linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
 optimsedLinearSVMClassifier(X[training_data], labels[training_data], X[test_data], labels[test_data])
 
-#randomBaselineClassifier(labels)
-#modeBaselineClassifier(labels)
-X_train = X[training_data]
-Y_train = labels[training_data]
-X_test = X[test_data]
-Y_test = labels[test_data]
 
-# logistic_regression_model_cross_validation(X_train, Y_train)
+print("-------------------------------------- Logistic Regression --------------------------------------------")
+# logistic_regression_model_cross_validation(X[training_data], labels[training_data])
+logistic_regression_model = train_chosen_logistic_regression_model(X[training_data], labels[training_data], 1)
+logistic_regression_model_pred = logistic_regression_model.predict(X[test_data])
+printingConfusionMatrix(labels[test_data], logistic_regression_model_pred)
 
-model = train_chosen_logistic_regression_model(X_train, Y_train, 1)
-model_pred = model.predict(X_test)
-acc_score1 = accuracy_score(model_pred, Y_test)
-print("C = 1:", acc_score1)
-
-
-# accuracy = correct_predictions/ np.size(label_predictions)
-# print("\n\nLogistic regression model metrics")
-# print("accuracy", accuracy)
-# LR_confusion_matrix = confusion_matrix(labels[test_data], label_predictions)
-# print("confusion Matrix")
-# print(LR_confusion_matrix)
-# 
 
 # ------------------------------------------- NOTES ---------------------------------------------------------------
 #items which seemed to have biggest effect -> sex, relation to head of household, surname,marital status (kind of), parish kind of

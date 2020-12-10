@@ -44,7 +44,11 @@ def train_chosen_logistic_regression_model(X_train, Y_train, C_value, X_test, Y_
     model.fit(X_train, Y_train)
     end = time.time()
     print("time to complete logistic regression training for C value ", C_value, " - ", round(end-start))
+    
+    start = time.time()
     pred = model.predict(X_test)
+    end = time.time()
+    print("time to make logistic regression predictions for C value ", C_value, " - ", round(end-start))
     printingConfusionMatrix(Y_test, pred)
 
 def printingConfusionMatrix(yTest, yPred):

@@ -45,8 +45,12 @@ def train_chosen_kernel_SVM_model(X_train, Y_train, C_value, X_test, Y_test):
     model.fit(gram_train, Y_train)
     end = time.time()
     print("time to complete logistic regression training for C value ", C_value, " - ", round(end-start))
+    
+    start = time.time()
     gram_test = np.dot(X_test, X_train.T)
     pred = model.predict(gram_test)
+    end = time.time()
+    print("time to make Kernel SVM predictions for C value ", C_value, " - ", round(end-start))
     printingConfusionMatrix(Y_test, pred)
 
 def printingConfusionMatrix(yTest, yPred):

@@ -7,20 +7,12 @@ from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.metrics import accuracy_score
 import time
 
-# def gaussian_kernel(distances):
-#         weights = np.exp(-d_param*(distances**2))
-#         return weights/np.sum(weights)
-
-#     dummy_model = KNeighborsRegressor(n_neighbors=3,weights=gaussian_kernel).fit(dummy_X, dummy_Y)
-
 def knn_model_cross_validation(X_train, Y_train):
     mean_accuracy = []
     accuracy_std_error = []
     mean_precision = []
     precision_std_error = []
     distance_parameters = [0, 1, 5, 10, 25]
-
-    
 
     for d_param in distance_parameters:
         def gaussian_kernel(distances):
@@ -59,8 +51,12 @@ def train_chosen_knn_model(X_train, Y_train, gamma, X_test, Y_test):
     model = KNeighborsClassifier(n_neighbors=1000,weights=gaussian_kernel)
     model.fit(X_train, Y_train)
     end = time.time()
-    print("time to complete logistic regression training for γ value ", gamma, " - ", round(end-start))
+    print("time to complete Knn training for γ value ", gamma, " - ", round(end-start))
+    
+    start = time.time()
     pred = model.predict(X_test)
+    end = time.time()
+    print("time to make knn predictions for γ value ", gamma, " - ", round(end-start))
     printingConfusionMatrix(Y_test, pred)
 
 def printingConfusionMatrix(yTest, yPred):

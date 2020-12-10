@@ -6,7 +6,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 import math as m
 from linearSVM import *
 from baseline import *
+from kernel_SVM import *
 from logistic_regression_model import *
+from knn import *
 from sklearn.metrics import accuracy_score, average_precision_score
 
 def produce_input_feature(list_of_inputs):
@@ -104,21 +106,25 @@ from sklearn.model_selection import train_test_split
 indices = np.arange(len(labels))
 training_data, test_data = train_test_split(indices, test_size=0.2)
 
-print("---------------------------------------baseline models ------------------------------------------------")
+print("---------------------------------------baseline models ----------------------------------------")
 randomBaselineClassifier(labels)
 modeBaselineClassifier(labels)
 
 print("-------------------------------------- Linear SVM -----------------------------------------------------")
-#linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
+linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
 optimsedLinearSVMClassifier(X[training_data], labels[training_data], X[test_data], labels[test_data])
 
 print("-------------------------------------- Logistic Regression --------------------------------------------")
-# logistic_regression_model_cross_validation(X[training_data], labels[training_data])
+logistic_regression_model_cross_validation(X[training_data], labels[training_data])
 train_chosen_logistic_regression_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
-print("-------------------------------------- Lasso Regression -----------------------------------------------")
-
 print("-------------------------------------- Kernal SVM -----------------------------------------------------")
+kernel_SVM_model_cross_validation(X[training_data], labels[training_data])
+train_chosen_kernel_SVM_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
+
+print("-------------------------------------- KNN ------------------------------------------------------------")
+knn_model_cross_validation(X[training_data], labels[training_data])
+train_chosen_knn_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
 
 # ------------------------------------------- NOTES ---------------------------------------------------------------

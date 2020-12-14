@@ -107,8 +107,8 @@ indices = np.arange(len(labels))
 training_data, test_data = train_test_split(indices, test_size=0.2)
 
 print("---------------------------------------baseline models ----------------------------------------")
-randomBaselineClassifier(labels)
-modeBaselineClassifier(labels)
+randomBaselineClassifier(labels[test_data])
+modeBaselineClassifier(labels[training_data], labels[test_data])
 
 print("-------------------------------------- Linear SVM -----------------------------------------------------")
 linearSVMClassifierCrossValidation(X[training_data], labels[training_data])

@@ -16,7 +16,8 @@ def produce_input_feature(list_of_inputs, uniqueValues):
     #tokenise each of the input fields
     vectorizer = CountVectorizer()
     vectorizer.fit(uniqueValues)
-       
+    
+    
     people = []
     for i in range(0, len(list_of_inputs[0])):
         person = []
@@ -34,8 +35,7 @@ def produce_input_feature(list_of_inputs, uniqueValues):
         X.append(input[0])
 
     X = np.array(X)
-    print("len(uniqueValues) =", len(uniqueValues))
-    print("AFTER len(vectorizer.get_feature_names()) =", len(vectorizer.get_feature_names()))
+    
     print("shape of X", X.shape)
 
     return X
@@ -75,18 +75,16 @@ printUniqueClassess(array_of_all_data, ["surname", "forename", "family_ID", "par
 
 
 for i in range(0, len(surname)):
-    surname[i] = "surname" + str(surname[i]).lower() + "surname"
-    forename[i] = "forename" + str(forename[i]).lower() + "forename"
-    family_ID[i] = "family_ID" + str(family_ID[i]) + "family_ID"
-    parish[i] = "parish" + str(parish[i]).lower() + "parish"
-    age[i] = "age" +  str(age[i]) + "age"
+    surname[i] = "sur" + str(surname[i]).lower() + "sur"
+    forename[i] = "fore" + str(forename[i]).lower() + "fore"
+    family_ID[i] = "fam" + str(family_ID[i]) + "fam"
+    parish[i] = "par" + str(parish[i]).lower() + "par"
+    age[i] = "a" +  str(age[i]) + "a"
     sex[i] = "sex" + str(sex[i]).lower() + "sex"
-    relation_to_head_of_household[i] = "relation" + str(relation_to_head_of_household[i]).lower() + "relation"
-    marital_status[i] = "martial" + str(marital_status[i]).lower() + "martial"
-    occupation[i] = "occupation" + str(occupation[i]).lower() + "occupation"
+    relation_to_head_of_household[i] = "rel" + str(relation_to_head_of_household[i]).lower() + "rel"
+    marital_status[i] = "mar" + str(marital_status[i]).lower() + "mar"
+    occupation[i] = "occ" + str(occupation[i]).lower() + "occ"
     education[i] = str(education[i]).lower()
-
-
 
 
 array_of_all_data = [surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
@@ -143,7 +141,7 @@ print("-------------------------------------- Kernal SVM -----------------------
 
 print("-------------------------------------- KNN ------------------------------------------------------------")
 #knn_model_cross_validation(X[training_data], labels[training_data])
-#train_chosen_knn_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
+train_chosen_knn_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
 
 # ------------------------------------------- NOTES ---------------------------------------------------------------

@@ -52,7 +52,7 @@ Smyth,Willm,176,Craigs,27,Male,Head Of Family,Married,Linen Weaver,read and writ
 Manson,David,200,Craigs,27,Male,Head Of Family,Married,Farmer,read and write
 Murray,Mary,224,Craigs,27,Female,Visitor,Married,No Employment,read and write
 Linn,Margaret,245,Craigs,27,Female,Wife,Married,Linen Weaver,read only
-Millie,John,256,Craigs,27,male,Head Of Family,Married,Linen Weaver,read only
+Millie,John,256,Craigs,27,Male,Head Of Family,Married,Linen Weaver,read only
 Dickson,Elesabeth,4,Ballinderry,27,Female,Servant,Not Married,Winder,read only
 McCann,Robert,6,Ballinderry,27,Male,Son,Married,Linen Weaver,read and write
 Chapman,Ann,11,Ballinderry,27,Female,Daughter,Married,Linen Weaver,neither
@@ -193,19 +193,19 @@ O'Neill,Charles,4,Killead,27,Male,Head Of Family,Not Married,Farmer,read and wri
 Moore,Hugh,9,Killead,27,Male,Head Of Family,Not Married,Shoe Maker,read and write
 Hannon,Margret,2,Killead,27,Female,Daughter,Not Married,Forester,read and write
 Alen,Joseph,14,Killead,27,Male,Head Of Family,Married,Labourer,read only
-Rea,Thomas,6,Killead,27,male,Head Of Family,Married,Miller,read and write
-McOnnel,William,16,Killead,27,male,,Married,Ploughman,read only
-Millar,Judeth,47,Killead,27,female,Sister,Not Married,Sawing,read and write
-Mconkey,Sarah,50,Killead,27,female,Head Of Family,Married,No Employment,neither
-Craig,Arthur,62,Killead,27,male,Son,Not Married,Farmer,read and write
-Rankin,John,13,Killead,27,male,Head Of Family,Married,Shoe Maker,read and write
-McGuillan,Margt,15,Killead,27,female,Wife,Married,Knitter or sewer,neither
-Morton,Fanny,9,Killead,27,female,Daughter,Not Married,Flowerer/Gardener,read and write
-McAdam,Nancy,35,Killead,27,female,Wife,Married,No Employment,read and write
-McBryd,Elnor,44,Killead,27,female,other,Married,No Employment,read only
-Crawford,Mary Jane,56,Killead,27,female,Daughter,Not Married,Spinster,read and write
-Morrow,Joseph,75,Killead,27,male,Head Of Family,Married,Ploughman,read and write
-Lewis,Sarah,104,Killead,27,female,Wife,Not Married,,read and write
+Rea,Thomas,6,Killead,27,Male,Head Of Family,Married,Miller,read and write
+McOnnel,William,16,Killead,27,Male,,Married,Ploughman,read only
+Millar,Judeth,47,Killead,27,Female,Sister,Not Married,Sawing,read and write
+Mconkey,Sarah,50,Killead,27,Female,Head Of Family,Married,No Employment,neither
+Craig,Arthur,62,Killead,27,Male,Son,Not Married,Farmer,read and write
+Rankin,John,13,Killead,27,Male,Head Of Family,Married,Shoe Maker,read and write
+McGuillan,Margt,15,Killead,27,Female,Wife,Married,Knitter or sewer,neither
+Morton,Fanny,9,Killead,27,Female,Daughter,Not Married,Flowerer/Gardener,read and write
+McAdam,Nancy,35,Killead,27,Female,Wife,Married,No Employment,read and write
+McBryd,Elnor,44,Killead,27,Female,other,Married,No Employment,read only
+Crawford,Mary Jane,56,Killead,27,Female,Daughter,Not Married,Spinster,read and write
+Morrow,Joseph,75,Killead,27,Male,Head Of Family,Married,Ploughman,read and write
+Lewis,Sarah,104,Killead,27,Female,Wife,Not Married,,read and write
 Rabb,Fanny,16,Killead,27,Female,Daughter,Not Married,Flowerer/Gardener,read and write
 Thompson,Thos,17,Killead,27,Male,Head Of Family,Married,Labourer,read only
 Whiteside,Peter,20,Killead,27,Male,Son,Not Married,Linen Weaver,read and write
@@ -279,7 +279,7 @@ Egan,Honour,8,Aughamore,27,Female,Wife,Married,House Keeper,read only
 Kelly,Mary,51,Lissonuffy,27,Female,Wife,Married,flax worker,read only
 McEnally,Owen,24,Tullycorbet,27,Male,Head Of Family,Married,No Employment,read and write
 Savage,Ame,25,Killerry,27,Female,other,Married,No Employment,neither
-Veale,Nicholas,1,Ardmore,27,male,Son,Not Married,Farmer,read and write
+Veale,Nicholas,1,Ardmore,27,Male,Son,Not Married,Farmer,read and write
 Black,Alexr,4,Tickmacrevan,27,Male,Son,Not Married,Labourer,read and write
 Boyd,Ellen,44,Tickmacrevan,27,Female,Servant,Not Married,servant,read only
 Brolly,Eliza Jane,48,Tickmacrevan,27,Female,Daughter,Married,No Employment,read and write
@@ -368,34 +368,34 @@ Linn,Margeret,245,Craigs,27,Female,Wife,Married,,read only
 Mellie,John,256,Craigs,27,Male,Head Of Family,Married,Linen Weaver,read only
 Linn,Margaret,245,Craigs,27,Female,Wife,Married,Linen Weaver,read only
 Millie,John,256,Craigs,27,Male,Head Of Family,Married,Linen Weaver,read only
-Dougherty,Nancy,3,Ballymoney,27,female,Wife,Married,Linen Weaver,read only
+Dougherty,Nancy,3,Ballymoney,27,Female,Wife,Married,Linen Weaver,read only
 Craig,Arthur,62,Killead,27,Male,Son,Not Married,Farmer,read and write
-Aire,Jane,4,Dunaghy,27,female,Servant,Not Married,Linen Weaver,read and write
-Douds,Sarah,10,Dunaghy,27,female,Wife,Married,No Employment,read and write
-Alexander,Rosey,7,Dunaghy,27,female,Daughter,Married,No Employment,read only
-McIlroy,Joseph,11,Dunaghy,27,male,Son,Not Married,Labourer,read and write
-Reid,Betty,10,Dunaghy,27,female,Wife,Married,Dress Maker,read and write
-Slown,David,24,Dunaghy,27,male,Head Of Family,Married,Farmer,read and write
-Alexandr,Rose,51,Dunaghy,27,female,Wife,Married,House Keeper,read only
-McAlistr,Marget,51,Dunaghy,27,female,Servant,Not Married,servant,read and write
-McKart,Nancey,2,Dunaghay,27,female,Sister,Not Married,Spinner,neither
-Donagan,Michel,1,Dunaghy,27,male,Son,Not Married,Labourer,read and write
-Kennedy,Patrick,4,Dunaghy,27,male,Head Of Family,Not Married,Farmer,read and write
-Douds,Elisb,11,Dunaghy,27,female,Wife,Married,Dress Maker,read and write
-McKeever,Mary,2,Dunaghy,27,female,Sister,Not Married,Dress Maker,neither
-McAulay,Alex,14,Dunaghy,27,male,Head Of Family,Married,Linen Weaver,read only
-McAulay,Rose,14,Dunaghy,27,female,Wife,Married,Winder,read only
-McCormick,Mary,15,Dunaghy,27,female,Sister,Not Married,Linen Weaver,read and write
-Pottes,Joseph,16,Dunaghy,27,male,Head Of Family,Married,Linen Weaver,read and write
-Oraw,Hugh,6,Dunaghy,27,male,Son,Married,Farmer,read and write
-Oraw,Cathrine,6,Dunaghy,27,female,other,Married,No Employment,read and write
-Scott,John,6,Dunaghy,27,male,Head Of Family,Married,Linen Weaver,read only
-O'Loan,Margret,10,Dunaghy,27,female,Daughter,Not Married,Weaver,read only
-McCann,Mary,2,Dunaghy,27,female,Servant,Not Married,servant,neither
-McCann,Patrick,3,Dunaghy,27,male,Son,Not Married,Labourer,read and write
-Goorly,John,4,Dunaghy,27,male,Head Of Family,Married,Farmer,read only
-Reid,John,2,Dunaghy,27,male,Head Of Family,Married,Linen Weaver,read only
-McKain,Ann,1,Dunaghy,27,female,Daughter,Not Married,No Employment,read only
+Aire,Jane,4,Dunaghy,27,Female,Servant,Not Married,Linen Weaver,read and write
+Douds,Sarah,10,Dunaghy,27,Female,Wife,Married,No Employment,read and write
+Alexander,Rosey,7,Dunaghy,27,Female,Daughter,Married,No Employment,read only
+McIlroy,Joseph,11,Dunaghy,27,Male,Son,Not Married,Labourer,read and write
+Reid,Betty,10,Dunaghy,27,Female,Wife,Married,Dress Maker,read and write
+Slown,David,24,Dunaghy,27,Male,Head Of Family,Married,Farmer,read and write
+Alexandr,Rose,51,Dunaghy,27,Female,Wife,Married,House Keeper,read only
+McAlistr,Marget,51,Dunaghy,27,Female,Servant,Not Married,servant,read and write
+McKart,Nancey,2,Dunaghay,27,Female,Sister,Not Married,Spinner,neither
+Donagan,Michel,1,Dunaghy,27,Male,Son,Not Married,Labourer,read and write
+Kennedy,Patrick,4,Dunaghy,27,Male,Head Of Family,Not Married,Farmer,read and write
+Douds,Elisb,11,Dunaghy,27,Female,Wife,Married,Dress Maker,read and write
+McKeever,Mary,2,Dunaghy,27,Female,Sister,Not Married,Dress Maker,neither
+McAulay,Alex,14,Dunaghy,27,Male,Head Of Family,Married,Linen Weaver,read only
+McAulay,Rose,14,Dunaghy,27,Female,Wife,Married,Winder,read only
+McCormick,Mary,15,Dunaghy,27,Female,Sister,Not Married,Linen Weaver,read and write
+Pottes,Joseph,16,Dunaghy,27,Male,Head Of Family,Married,Linen Weaver,read and write
+Oraw,Hugh,6,Dunaghy,27,Male,Son,Married,Farmer,read and write
+Oraw,Cathrine,6,Dunaghy,27,Female,other,Married,No Employment,read and write
+Scott,John,6,Dunaghy,27,Male,Head Of Family,Married,Linen Weaver,read only
+O'Loan,Margret,10,Dunaghy,27,Female,Daughter,Not Married,Weaver,read only
+McCann,Mary,2,Dunaghy,27,Female,Servant,Not Married,servant,neither
+McCann,Patrick,3,Dunaghy,27,Male,Son,Not Married,Labourer,read and write
+Goorly,John,4,Dunaghy,27,Male,Head Of Family,Married,Farmer,read only
+Reid,John,2,Dunaghy,27,Male,Head Of Family,Married,Linen Weaver,read only
+McKain,Ann,1,Dunaghy,27,Female,Daughter,Not Married,No Employment,read only
 Cupples,James,19,Dunaghy,27,Male,Head Of Family,Not Married,Linen Weaver,read only
 Glasgow,Mary Ann,35,Dunaghy,27,Female,Wife,Married,Linen Weaver,read only
 Rodgers,Thomas,13,Dunaghy,27,Male,Servant,Not Married,Linen Weaver,read and write
@@ -792,28 +792,28 @@ Aikin,Robt,25,Killead,23,Male,Servant,Not Married,servant,neither
 Kinnin,John,6,Killead,23,Male,Son,Not Married,Labourer,read and write
 Spratt,James,29,Killead,23,Male,Head Of Family,Married,Shoe Maker,read and write
 Gilpin,Maria,8,Killead,23,Female,Daughter,Not Married,No Employment,read and write
-Crawford,James,2,Killead,23,male,Son,Not Married,Farmer,read and write
-Crawford,John,3,Killead,23,male,Son,Not Married,Farmer,read and write
-Smith,Nancy,7,Killead,23,female,Servant,Not Married,No Employment,neither
-Gray,Jane,8,Killead,23,female,Wife,Married,Flowerer/Gardener,read only
-Thompson,Nathl,9,Killead,23,male,Son,Not Married,Farmer,read and write
-McClurg,Nathaniel,20,Killead,23,male,Son,Not Married,Labourer,read and write
-Gibbins,Susannah,25,Killead,23,female,Daughter,Not Married,Flowerer/Gardener,neither
-Murray,Mary,26,Killead,23,female,Daughter,Not Married,Flowerer/Gardener,neither
-McGrady,Jane,31,Killead,23,female,Daughter,Not Married,Flowerer/Gardener,read only
-Christy,Anna Maria,55,Killead,23,female,Daughter,Not Married,House Keeper,read and write
-Harkness,John,3,Killead,23,male,Son,Not Married,Fisherman,read and write
-McBurney,Samuel,6,Killead,23,male,Son,Not Married,Labourer,read only
-Dunnan,Sarah,11,Killead,23,female,Daughter,Not Married,No Employment,read only
-Crawford,Ann,56,Killead,23,female,Daughter,Not Married,Spinster,read and write
-Moffat,Natha,68,Killead,23,male,Son,Not Married,Labourer,read and write
-Steevonson,Margt,78,Killead,23,female,Niece,Not Married,Spinster,read and write
-Patk,Robt,78,Killead,23,male,Servant,Not Married,Knitter or sewer,read only
-Graydon,Marie,79,Killead,23,female,Servant,Not Married,servant,read only
-White,Sally,80,Killead,23,female,Servant,Not Married,House Keeper,read only
-Barber,Margaret,80,Killead,23,female,Visitor,Not Married,Dress Maker,read and write
-Kennedy,Mary,81,Killead,23,female,Daughter,Married,No Employment,read and write
-Martain,W H,81,Killead,23,male,Servant,Not Married,Ploughman,read and write
+Crawford,James,2,Killead,23,Male,Son,Not Married,Farmer,read and write
+Crawford,John,3,Killead,23,Male,Son,Not Married,Farmer,read and write
+Smith,Nancy,7,Killead,23,Female,Servant,Not Married,No Employment,neither
+Gray,Jane,8,Killead,23,Female,Wife,Married,Flowerer/Gardener,read only
+Thompson,Nathl,9,Killead,23,Male,Son,Not Married,Farmer,read and write
+McClurg,Nathaniel,20,Killead,23,Male,Son,Not Married,Labourer,read and write
+Gibbins,Susannah,25,Killead,23,Female,Daughter,Not Married,Flowerer/Gardener,neither
+Murray,Mary,26,Killead,23,Female,Daughter,Not Married,Flowerer/Gardener,neither
+McGrady,Jane,31,Killead,23,Female,Daughter,Not Married,Flowerer/Gardener,read only
+Christy,Anna Maria,55,Killead,23,Female,Daughter,Not Married,House Keeper,read and write
+Harkness,John,3,Killead,23,Male,Son,Not Married,Fisherman,read and write
+McBurney,Samuel,6,Killead,23,Male,Son,Not Married,Labourer,read only
+Dunnan,Sarah,11,Killead,23,Female,Daughter,Not Married,No Employment,read only
+Crawford,Ann,56,Killead,23,Female,Daughter,Not Married,Spinster,read and write
+Moffat,Natha,68,Killead,23,Male,Son,Not Married,Labourer,read and write
+Steevonson,Margt,78,Killead,23,Female,Niece,Not Married,Spinster,read and write
+Patk,Robt,78,Killead,23,Male,Servant,Not Married,Knitter or sewer,read only
+Graydon,Marie,79,Killead,23,Female,Servant,Not Married,servant,read only
+White,Sally,80,Killead,23,Female,Servant,Not Married,House Keeper,read only
+Barber,Margaret,80,Killead,23,Female,Visitor,Not Married,Dress Maker,read and write
+Kennedy,Mary,81,Killead,23,Female,Daughter,Married,No Employment,read and write
+Martain,W H,81,Killead,23,Male,Servant,Not Married,Ploughman,read and write
 Christy,Thos,11,Killead,23,Male,Son,Not Married,Labourer,read and write
 Scott,Margaret,19,Killead,23,Female,Wife,Married,Spinster,read and write
 McDowell,John,2,Killead,23,Male,Servant,Not Married,Labourer,read and write
@@ -930,7 +930,7 @@ Ferguson,Joseph,7,Tamlaghtfinlagan,23,Male,Head Of Family,Married,Farmer,read an
 Ferguson,Martha,7,Tamlaghtfinlagan,23,Female,Wife,Not Married,No Employment,read only
 Ashe,Ellen,3,Ballinvoher,23,Female,Wife,Married,House Keeper,read and write
 Sullivan,John,6,Kilcummin,23,Male,Brother,Not Married,Labourer,neither
-Veale,Bridget,1,Ardmore,23,female,Daughter,Not Married,,read and write
+Veale,Bridget,1,Ardmore,23,Female,Daughter,Not Married,,read and write
 McIllgnan,Robt,14,Tickmacrevan,23,Male,Head Of Family,Married,Blacksmith,read and write
 Nesbitt,Serah,18,Tickmacrevan,23,Female,Daughter,Not Married,Dress Maker,read and write
 Black,James,28,Tickmacrevan,23,Male,Son,Not Married,Labourer,neither
@@ -1048,48 +1048,48 @@ Manson,Robert,199,Craigs,23,Male,Son,Not Married,Carpenter,read and write
 Gilpin,Maria,8,Killead,23,Female,Daughter,Not Married,No Employment,read and write
 Talley,Wm Jno,262,Craigs,23,Male,Son,Married,Bleacher,read and write
 Weir,Jane,266,Craigs,23,Female,Wife,Married,Linen Weaver,read and write
-Leslie,James,24,Ballymoney,23,male,Head Of Family,Married,Linen Weaver,read and write
-McCrackin,Margret,43,Ballymoney,23,female,Daughter,Not Married,No Employment,read and write
+Leslie,James,24,Ballymoney,23,Male,Head Of Family,Married,Linen Weaver,read and write
+McCrackin,Margret,43,Ballymoney,23,Female,Daughter,Not Married,No Employment,read and write
 Harkness,John,3,Killead,23,Male,Son,Not Married,Fisherman,read and write
-Torrens,Robert,2,Dunaghy,23,male,Head Of Family,Not Married,Farmer,read and write
-Simpson,Thomas,2,Dunaghy,23,male,Servant,Not Married,Labourer,read only
-Cupples,Hessy,6,Dunaghy,23,female,Daughter,Not Married,,read and write
-Alexander,James,7,Dunaghy,23,male,Son,Married,Linen Weaver,read and write
-Graham,James,10,Dunaghy,23,male,Son,Not Married,Farmer,read only
-Lintan,James,15,Dunaghy,23,male,Son,Not Married,Linen Weaver,read only
-Watson,Hannagh,4,Dunaghy,23,female,Daughter,Not Married,Weaver,neither
-McCausland,Mary,5,Dunaghy,23,female,Daughter,Not Married,Linen Weaver,read only
-Couples,Samuel,8,Dunaghy,23,male,,Not Married,Labourer,read only
-Cammal,Rose,38,Dunaghy,23,female,Servant,Not Married,House Keeper,read only
-Crawford,William,42,Dunaghy,23,male,Son,Not Married,Labourer,read and write
-Kenneway,Margrt,47,Dunaghy,23,female,Wife,Married,Weaver,read only
-Duncan,James,3,Dunaghy,23,male,Son,Not Married,Linen Weaver,read and write
-Caldwells,Catherine,5,Dunaghy,23,female,Daughter,Not Married,Spinster,read and write
-Houston,Thomas,13,Dunaghy,23,male,Son,Not Married,Linen Weaver,read and write
-Johnston,Sarah,14,Dunaghy,23,female,Daughter,Not Married,Weaver,read only
-Johnston,Margret,15,Dunaghy,23,female,Wife,Married,Winner,read only
-Logan,David,25,Dunaghy,23,male,Head Of Family,Married,Linen Weaver,neither
-Melvanan,Joseph,33,Dunaghy,23,male,Servant,Not Married,Labourer,read only
-Stewart,Margreta,40,Dunaghy,23,female,Servant,Not Married,Linen Weaver,read only
-Miller,Agnes,42,Dunaghy,23,female,Daughter,Married,Spinster,read only
-Houston,Agnes,44,Dunaghy,23,female,Head Of Family,Married,Land Holder,read and write
-Magill,Patrick,7,Dunaghay,23,male,Head Of Family,Married,Labourer,neither
-Oraw,Charles,8,Dunaghy,23,male,Servant,Not Married,Labourer,neither
-Craig,Samuel,4,Dunaghy,23,male,Servant,Not Married,Labourer,neither
-Davis,William,4,Dunaghy,23,male,Visitor,Married,seaman,read and write
-O'Boyle,Mary,8,Dunaghy,23,female,Wife,Married,No Employment,read and write
-Petierew,Nancy,16,Dunaghy,23,female,Niece,Not Married,Seamstress,read only
-Blair,Moses,19,Dunaghy,23,male,Son,Not Married,Labourer,read and write
-McKendry,George,2,Dunaghy,23,male,Son,Not Married,Labourer,read and write
-McCreight,Margret,10,Dunaghy,23,female,Wife,Married,Linen Weaver,read and write
-McDowell,George,3,Dunaghy,23,male,Son,Not Married,Linen Weaver,read and write
-Brownlee,Moyt A,4,Dunaghy,23,female,Sister,Not Married,Linen Weaver,neither
-Oraw,John,14,Dunaghy,23,male,Son,Not Married,Linen Weaver,read only
-McAuley,Daniel,17,Dunaghy,23,male,Son,Not Married,Linen Weaver,read and write
-Petrie,John,1,Dunaghy,23,male,Son,Not Married,Linen Weaver,read and write
-Gorden,Bettey Ann,4,Dunaghy,23,female,Daughter,Married,Linen Weaver,read only
-O'Loan,Patrick,7,Dunaghy,23,male,Head Of Family,Married,Linen Weaver,read only
-McKain,Catherine,1,Dunaghy,23,female,Daughter,Not Married,No Employment,neither
+Torrens,Robert,2,Dunaghy,23,Male,Head Of Family,Not Married,Farmer,read and write
+Simpson,Thomas,2,Dunaghy,23,Male,Servant,Not Married,Labourer,read only
+Cupples,Hessy,6,Dunaghy,23,Female,Daughter,Not Married,,read and write
+Alexander,James,7,Dunaghy,23,Male,Son,Married,Linen Weaver,read and write
+Graham,James,10,Dunaghy,23,Male,Son,Not Married,Farmer,read only
+Lintan,James,15,Dunaghy,23,Male,Son,Not Married,Linen Weaver,read only
+Watson,Hannagh,4,Dunaghy,23,Female,Daughter,Not Married,Weaver,neither
+McCausland,Mary,5,Dunaghy,23,Female,Daughter,Not Married,Linen Weaver,read only
+Couples,Samuel,8,Dunaghy,23,Male,,Not Married,Labourer,read only
+Cammal,Rose,38,Dunaghy,23,Female,Servant,Not Married,House Keeper,read only
+Crawford,William,42,Dunaghy,23,Male,Son,Not Married,Labourer,read and write
+Kenneway,Margrt,47,Dunaghy,23,Female,Wife,Married,Weaver,read only
+Duncan,James,3,Dunaghy,23,Male,Son,Not Married,Linen Weaver,read and write
+Caldwells,Catherine,5,Dunaghy,23,Female,Daughter,Not Married,Spinster,read and write
+Houston,Thomas,13,Dunaghy,23,Male,Son,Not Married,Linen Weaver,read and write
+Johnston,Sarah,14,Dunaghy,23,Female,Daughter,Not Married,Weaver,read only
+Johnston,Margret,15,Dunaghy,23,Female,Wife,Married,Winner,read only
+Logan,David,25,Dunaghy,23,Male,Head Of Family,Married,Linen Weaver,neither
+Melvanan,Joseph,33,Dunaghy,23,Male,Servant,Not Married,Labourer,read only
+Stewart,Margreta,40,Dunaghy,23,Female,Servant,Not Married,Linen Weaver,read only
+Miller,Agnes,42,Dunaghy,23,Female,Daughter,Married,Spinster,read only
+Houston,Agnes,44,Dunaghy,23,Female,Head Of Family,Married,Land Holder,read and write
+Magill,Patrick,7,Dunaghay,23,Male,Head Of Family,Married,Labourer,neither
+Oraw,Charles,8,Dunaghy,23,Male,Servant,Not Married,Labourer,neither
+Craig,Samuel,4,Dunaghy,23,Male,Servant,Not Married,Labourer,neither
+Davis,William,4,Dunaghy,23,Male,Visitor,Married,seaman,read and write
+O'Boyle,Mary,8,Dunaghy,23,Female,Wife,Married,No Employment,read and write
+Petierew,Nancy,16,Dunaghy,23,Female,Niece,Not Married,Seamstress,read only
+Blair,Moses,19,Dunaghy,23,Male,Son,Not Married,Labourer,read and write
+McKendry,George,2,Dunaghy,23,Male,Son,Not Married,Labourer,read and write
+McCreight,Margret,10,Dunaghy,23,Female,Wife,Married,Linen Weaver,read and write
+McDowell,George,3,Dunaghy,23,Male,Son,Not Married,Linen Weaver,read and write
+Brownlee,Moyt A,4,Dunaghy,23,Female,Sister,Not Married,Linen Weaver,neither
+Oraw,John,14,Dunaghy,23,Male,Son,Not Married,Linen Weaver,read only
+McAuley,Daniel,17,Dunaghy,23,Male,Son,Not Married,Linen Weaver,read and write
+Petrie,John,1,Dunaghy,23,Male,Son,Not Married,Linen Weaver,read and write
+Gorden,Bettey Ann,4,Dunaghy,23,Female,Daughter,Married,Linen Weaver,read only
+O'Loan,Patrick,7,Dunaghy,23,Male,Head Of Family,Married,Linen Weaver,read only
+McKain,Catherine,1,Dunaghy,23,Female,Daughter,Not Married,No Employment,neither
 Doman,Mary,4,Dunaghy,23,Female,Daughter,Not Married,Linen Weaver,read only
 Gregg,Saml,11,Dunaghy,23,Male,Servant,Not Married,Linen Weaver,neither
 Hume,Sarah Ann,12,Dunaghy,23,Female,Wife,Married,Winder,read only
@@ -1300,7 +1300,7 @@ Branagh,Margret,19,Ballinderry,23,Female,Daughter,Not Married,Linen Weaver,neith
 Bredin,Ellen,17,Ballinderry,23,Female,Wife,Married,Weaver,read only
 Bawn,William,24,Ballinderry,23,Male,Servant,Not Married,Ploughman,read and write
 Barbour,Jane,41,Ballinderry,23,Female,Daughter,Not Married,Linen Weaver,neither
-Reilly,Ellen,23,Tomregan,23,female,Wife,Married,House Keeper,read only
+Reilly,Ellen,23,Tomregan,23,Female,Wife,Married,House Keeper,read only
 Marcer,Aliza,1,Aghagallon,21,Female,Wife,Married,House Keeper,read only
 Murry,Mariah,2,Aghagallon,21,Female,Daughter,Not Married,Labourer,neither
 Grougan,Elizabeth,10,Aghagallon,21,Female,Daughter,Not Married,Linen Weaver,neither
@@ -1619,26 +1619,26 @@ Moore,John,5,Killead,21,Male,Son,Not Married,Farmer,read and write
 Row,Robert,5,Killead,21,Male,Servant,Not Married,Ploughman,read only
 Gilpin,Margt,8,Killead,21,Female,Daughter,Not Married,No Employment,read and write
 Hill,Hugh,12,Killead,21,Male,Nephew,Not Married,Labourer,read and write
-Barron,Robt,7,Killead,21,male,other,Married,Farmer,read and write
-McNeight,Mary,12,Killead,21,female,Wife,Married,Spinster,read and write
-Stormont,Hugh,26,Killead,21,male,other,Married,Farmer,read and write
-Stormont,Margt,26,Killead,21,female,Wife,Married,Seamstress,read and write
-Auld,Martha,5,Killead,21,female,Daughter,Not Married,Dress Maker,read only
-McCann,Margaret,7,Killead,21,female,Daughter,Not Married,Embroiderer/Tambourer,read only
-Thompson,Margt,9,Killead,21,female,Daughter,Not Married,Spinster,read and write
-Brown,James,12,Killead,21,male,Son,Not Married,Farmer,read and write
-McClurg,Martha Ann,20,Killead,21,female,Daughter,Not Married,Spinster,read and write
-McQuillan,Sarah,28,Killead,21,female,Daughter,Not Married,Flowerer/Gardener,read only
-Wilson,Arthur,42,Killead,21,male,other,Married,Farmer,read and write
-Christy,John,55,Killead,21,male,Son,Not Married,Ploughman,read and write
-Wilson,Alice,57,Killead,21,female,Daughter,Not Married,Seamstress,read only
-Craig,Rebecah,62,Killead,21,female,Daughter,Not Married,Shewing,read and write
-Bankes,John,6,Killead,21,male,Head Of Family,Married,Ploughman,read and write
-McCudin,Marget,9,Killead,21,female,Daughter,Not Married,Lower,read only
-Grey,Sarah,6,Killead,21,female,Daughter,Not Married,Knitter or sewer,read and write
-Ensworth,Serah,46,Killead,21,female,Daughter,Not Married,Flowerer/Gardener,read only
-Crawford,John,56,Killead,21,male,Son,Not Married,Farmer,read and write
-Cassidy,Jane,103,Killead,21,female,Servant,Not Married,servant,read only
+Barron,Robt,7,Killead,21,Male,other,Married,Farmer,read and write
+McNeight,Mary,12,Killead,21,Female,Wife,Married,Spinster,read and write
+Stormont,Hugh,26,Killead,21,Male,other,Married,Farmer,read and write
+Stormont,Margt,26,Killead,21,Female,Wife,Married,Seamstress,read and write
+Auld,Martha,5,Killead,21,Female,Daughter,Not Married,Dress Maker,read only
+McCann,Margaret,7,Killead,21,Female,Daughter,Not Married,Embroiderer/Tambourer,read only
+Thompson,Margt,9,Killead,21,Female,Daughter,Not Married,Spinster,read and write
+Brown,James,12,Killead,21,Male,Son,Not Married,Farmer,read and write
+McClurg,Martha Ann,20,Killead,21,Female,Daughter,Not Married,Spinster,read and write
+McQuillan,Sarah,28,Killead,21,Female,Daughter,Not Married,Flowerer/Gardener,read only
+Wilson,Arthur,42,Killead,21,Male,other,Married,Farmer,read and write
+Christy,John,55,Killead,21,Male,Son,Not Married,Ploughman,read and write
+Wilson,Alice,57,Killead,21,Female,Daughter,Not Married,Seamstress,read only
+Craig,Rebecah,62,Killead,21,Female,Daughter,Not Married,Shewing,read and write
+Bankes,John,6,Killead,21,Male,Head Of Family,Married,Ploughman,read and write
+McCudin,Marget,9,Killead,21,Female,Daughter,Not Married,Lower,read only
+Grey,Sarah,6,Killead,21,Female,Daughter,Not Married,Knitter or sewer,read and write
+Ensworth,Serah,46,Killead,21,Female,Daughter,Not Married,Flowerer/Gardener,read only
+Crawford,John,56,Killead,21,Male,Son,Not Married,Farmer,read and write
+Cassidy,Jane,103,Killead,21,Female,Servant,Not Married,servant,read only
 Porter,James,8,Killead,21,Male,Head Of Family,Married,Labourer,read and write
 Thompson,Mary,10,Killead,21,Female,Wife,Married,Flowerer/Gardener,read and write
 McCullough,Mary,20,Killead,21,Female,Wife,Married,Flowerer/Gardener,read and write
@@ -1861,39 +1861,39 @@ Moore,John,5,Killead,21,Male,Son,Not Married,Farmer,read and write
 Row,Robert,5,Killead,21,Male,Servant,Not Married,Ploughman,read only
 Gilpin,Margt,8,Killead,21,Female,Daughter,Not Married,No Employment,read and write
 Millar,Ellen,263,Craigs,21,Female,Wife,Married,House Keeper,read and write
-Townsend,Nancy,8,Ballymoney,21,female,Daughter,Not Married,House Keeper,read and write
-McCrackin,Nancy,43,Ballymoney,21,female,Daughter,Not Married,Weaver,read and write
+Townsend,Nancy,8,Ballymoney,21,Female,Daughter,Not Married,House Keeper,read and write
+McCrackin,Nancy,43,Ballymoney,21,Female,Daughter,Not Married,Weaver,read and write
 Wilson,Alice,57,Killead,21,Female,Daughter,Not Married,Seamstress,read only
 Craig,Rebecah,62,Killead,21,Female,Daughter,Not Married,Shewing,read and write
-Cupples,William,6,Dunaghy,21,male,Son,Not Married,,read and write
-Alexander,Thomas,7,Dunaghy,21,male,Son,Married,Linen Weaver,read and write
-Connor,Eliza,19,Dunaghy,21,female,Servant,Not Married,No Employment,neither
-Daragh,Eliza,2,Dunaghy,21,female,Servant,Married,Linen Weaver,read only
-McCausland,Ann,5,Dunaghy,21,female,Daughter,Not Married,Linen Weaver,read only
-Millar,Elinor,25,Dunaghy,21,female,Daughter,Not Married,Linen Weaver,read only
-Crawford,Sarah Gain,42,Dunaghy,21,female,Daughter,Not Married,Flowerer/Gardener,read and write
-Reth,David,54,Dunaghy,21,male,Son,Not Married,Labourer,read and write
-Duncan,Jane,3,Dunaghy,21,female,Daughter,Not Married,Linen Weaver,read only
-Mark,William,7,Dunaghy,21,male,Son,Not Married,Labourer,read and write
-Gillin,David,10,Dunaghy,21,male,Son,Not Married,Linen Weaver,read and write
-Johnston,Ellen,14,Dunaghy,21,female,Daughter,Not Married,Linen Weaver,read only
-Smith,James,19,Dunaghy,21,male,Head Of Family,Married,Linen Weaver,read and write
-Kennedy,Robert,23,Dunaghy,21,male,Head Of Family,Not Married,Linen Weaver,read only
-Magill,Marey,7,Dunaghay,21,female,Wife,Married,House Keeper,neither
-Duffin,Bridget,5,Dunaghy,21,female,Niece,Not Married,House Keeper,read only
-Pattison,Ann,3,Dunaghy,21,female,Servant,Not Married,Linen Weaver,read only
-Blair,Hugh,13,Dunaghy,21,male,Head Of Family,Married,Linen Weaver,read only
-Blair,Grace,19,Dunaghy,21,female,Daughter,Not Married,Linen Weaver,read only
-McMurry,Hugh,2,Dunaghy,21,male,Servant,Not Married,Labourer,read and write
-Oraw,Patrick,11,Dunaghy,21,male,Servant,Not Married,Labourer,neither
-McMaster,Jane,17,Dunaghy,21,female,Head Of Family,Married,,read and write
-McAteer,Patk,1,Dunaghy,21,male,Servant,Not Married,Linen Weaver,read only
-Bradshaw,Rose,5,Dunaghy,21,female,Daughter,Not Married,Embroiderer/Tambourer,read and write
-Carey,Daniel,13,Dunaghy,21,male,Son,Not Married,Linen Weaver,read and write
-McAuley,John,17,Dunaghy,21,male,Son,Not Married,Linen Weaver,read and write
-Petrie,Jane,1,Dunaghy,21,female,Daughter,Not Married,Linen Weaver,read and write
-McKenny,James,4,Dunaghy,21,male,Servant,Not Married,Linen Weaver,read only
-McCleary,Mary,8,Dunaghy,21,female,Wife,Married,Linen Weaver,read only
+Cupples,William,6,Dunaghy,21,Male,Son,Not Married,,read and write
+Alexander,Thomas,7,Dunaghy,21,Male,Son,Married,Linen Weaver,read and write
+Connor,Eliza,19,Dunaghy,21,Female,Servant,Not Married,No Employment,neither
+Daragh,Eliza,2,Dunaghy,21,Female,Servant,Married,Linen Weaver,read only
+McCausland,Ann,5,Dunaghy,21,Female,Daughter,Not Married,Linen Weaver,read only
+Millar,Elinor,25,Dunaghy,21,Female,Daughter,Not Married,Linen Weaver,read only
+Crawford,Sarah Gain,42,Dunaghy,21,Female,Daughter,Not Married,Flowerer/Gardener,read and write
+Reth,David,54,Dunaghy,21,Male,Son,Not Married,Labourer,read and write
+Duncan,Jane,3,Dunaghy,21,Female,Daughter,Not Married,Linen Weaver,read only
+Mark,William,7,Dunaghy,21,Male,Son,Not Married,Labourer,read and write
+Gillin,David,10,Dunaghy,21,Male,Son,Not Married,Linen Weaver,read and write
+Johnston,Ellen,14,Dunaghy,21,Female,Daughter,Not Married,Linen Weaver,read only
+Smith,James,19,Dunaghy,21,Male,Head Of Family,Married,Linen Weaver,read and write
+Kennedy,Robert,23,Dunaghy,21,Male,Head Of Family,Not Married,Linen Weaver,read only
+Magill,Marey,7,Dunaghay,21,Female,Wife,Married,House Keeper,neither
+Duffin,Bridget,5,Dunaghy,21,Female,Niece,Not Married,House Keeper,read only
+Pattison,Ann,3,Dunaghy,21,Female,Servant,Not Married,Linen Weaver,read only
+Blair,Hugh,13,Dunaghy,21,Male,Head Of Family,Married,Linen Weaver,read only
+Blair,Grace,19,Dunaghy,21,Female,Daughter,Not Married,Linen Weaver,read only
+McMurry,Hugh,2,Dunaghy,21,Male,Servant,Not Married,Labourer,read and write
+Oraw,Patrick,11,Dunaghy,21,Male,Servant,Not Married,Labourer,neither
+McMaster,Jane,17,Dunaghy,21,Female,Head Of Family,Married,,read and write
+McAteer,Patk,1,Dunaghy,21,Male,Servant,Not Married,Linen Weaver,read only
+Bradshaw,Rose,5,Dunaghy,21,Female,Daughter,Not Married,Embroiderer/Tambourer,read and write
+Carey,Daniel,13,Dunaghy,21,Male,Son,Not Married,Linen Weaver,read and write
+McAuley,John,17,Dunaghy,21,Male,Son,Not Married,Linen Weaver,read and write
+Petrie,Jane,1,Dunaghy,21,Female,Daughter,Not Married,Linen Weaver,read and write
+McKenny,James,4,Dunaghy,21,Male,Servant,Not Married,Linen Weaver,read only
+McCleary,Mary,8,Dunaghy,21,Female,Wife,Married,Linen Weaver,read only
 Doman,William,4,Dunaghy,21,Male,Head Of Family,Married,Linen Weaver,read and write
 McAtire,John,24,Dunaghy,21,Male,Head Of Family,Not Married,Farmer,read and write
 Fyfe,Cathn,25,Dunaghy,21,Female,Daughter,Married,Linen Weaver,read and write
@@ -2234,8 +2234,8 @@ Campbell,Nancy,229,Craigs,26,Female,Wife,Married,,read and write
 Watt,Elizabeth,235,Craigs,26,Female,Wife,Married,,read only
 Ferril,Margaret,240,Craigs,26,Female,Wife,Married,,read and write
 Stirling,Jas,244,Craigs,26,Male,Son,Not Married,Farmer,read and write
-McIlroy,Willm,247,Craigs,26,male,Son,Not Married,Bleacher,read and write
-Ross,John,251,Craigs,26,male,Head Of Family,Married,Bleacher,read and write
+McIlroy,Willm,247,Craigs,26,Male,Son,Not Married,Bleacher,read and write
+Ross,John,251,Craigs,26,Male,Head Of Family,Married,Bleacher,read and write
 Talley,Ellen,262,Craigs,26,Female,other,Married,,read and write
 Dickson,Ann,7,Ballinderry,26,Female,Head Of Family,Not Married,Linen Weaver,neither
 Moorhead,Rebecca,10,Ballinderry,26,Female,Daughter,Not Married,servant,read and write
@@ -2465,18 +2465,18 @@ May,John,22,Killead,26,Male,Head Of Family,Married,Farmer,read and write
 Barbour,Grace,11,Killead,26,Female,Daughter,Not Married,Flowerer/Gardener,read only
 Officer,Elizth,8,Killead,26,Female,Daughter,Not Married,Knitter or sewer,read only
 Black,M Anne,5,Killead,26,Female,other,Married,No Employment,read and write
-Mairs,Mary,3,Killead,26,female,Sister,Married,Flowerer/Gardener,read only
-Magivern,Sarah,7,Killead,26,female,Visitor,Not Married,Spinster,read and write
-Irwin,Margret,51,Killead,26,female,Daughter,Not Married,Dress Maker,read and write
-Thomson,Elisa,4,Killead,26,female,Daughter,Not Married,Dress Maker,read and write
-Patterson,Eliza,7,Killead,26,female,Wife,Married,No Employment,read only
-Nixon,John,21,Killead,26,male,Son,Not Married,Farmer,read and write
-Dunnan,Mary,11,Killead,26,female,Daughter,Not Married,Flowerer/Gardener,read only
-Hunter,William,37,Killead,26,male,Lodger,Not Married,No Employment,neither
-Tood,Eliza,45,Killead,26,female,Servant,Not Married,House Keeper,read only
-Ensworth,Jams,46,Killead,26,male,Son,Married,Labourer,read only
-Molholand,James,46,Killead,26,male,Visitor,Not Married,Stone Mason,read only
-Nott,Robert,89,Killead,26,male,Son,Not Married,Farmer,read and write
+Mairs,Mary,3,Killead,26,Female,Sister,Married,Flowerer/Gardener,read only
+Magivern,Sarah,7,Killead,26,Female,Visitor,Not Married,Spinster,read and write
+Irwin,Margret,51,Killead,26,Female,Daughter,Not Married,Dress Maker,read and write
+Thomson,Elisa,4,Killead,26,Female,Daughter,Not Married,Dress Maker,read and write
+Patterson,Eliza,7,Killead,26,Female,Wife,Married,No Employment,read only
+Nixon,John,21,Killead,26,Male,Son,Not Married,Farmer,read and write
+Dunnan,Mary,11,Killead,26,Female,Daughter,Not Married,Flowerer/Gardener,read only
+Hunter,William,37,Killead,26,Male,Lodger,Not Married,No Employment,neither
+Tood,Eliza,45,Killead,26,Female,Servant,Not Married,House Keeper,read only
+Ensworth,Jams,46,Killead,26,Male,Son,Married,Labourer,read only
+Molholand,James,46,Killead,26,Male,Visitor,Not Married,Stone Mason,read only
+Nott,Robert,89,Killead,26,Male,Son,Not Married,Farmer,read and write
 White,Jane,15,Killead,26,Female,Daughter,Not Married,Weaver,read and write
 Boyd,Belea,3,Killead,26,Female,Servant,Not Married,Labourer,read only
 Barber,Mary,15,Killead,26,Female,Daughter,Not Married,,read and write
@@ -2692,37 +2692,37 @@ Stirling,Jas,244,Craigs,26,Male,Son,Not Married,Farmer,read and write
 McIlroy,Willm,247,Craigs,26,Male,Son,Not Married,Bleacher,read and write
 Ross,John,251,Craigs,26,Male,Head Of Family,Married,Bleacher,read and write
 Talley,Ellen,262,Craigs,26,Female,other,Married,,read and write
-Kennedy,Samuel,17,Ballymoney,26,male,Son,Not Married,Farmer,read and write
-McCrackin,John,44,Ballymoney,26,male,Head Of Family,Married,Linen Weaver,read and write
-Leslie,Mary,44,Ballymoney,26,female,Wife,Married,No Employment,read and write
-Thompson,Rachal,1,Dunaghy,26,female,Wife,Married,Weaver,read and write
-Mitchel,Eliza,7,Dunaghy,26,female,Wife,Married,Weaver,read only
-Henery,Samuel,13,Dunaghy,26,male,other,Married,,read only
-McOard,Samuel,18,Donaghy,26,male,Head Of Family,Married,Farmer,read and write
-Slown,Matilda,24,Dunaghy,26,female,Wife,Married,House Keeper,read and write
-Sloan,Elizabeth,27,Dunaghy,26,female,Daughter,Married,No Employment,read and write
-Crawford,Mary Ann,42,Dunaghy,26,female,Daughter,Not Married,Dress Maker,read and write
-Cubit,Jane,6,Dunaghy,26,female,Daughter,Not Married,Linen Weaver,read and write
-Johnston,Elisabeth,14,Dunaghy,26,female,Daughter,Not Married,Weaver,read only
-Smith,Martha,19,Dunaghy,26,female,Wife,Married,Linen Weaver,read and write
-Johnston,John,21,Dunaghy,26,male,Son,Not Married,Linen Weaver,read and write
-Speers,Elizabeth,28,Dunaghy,26,female,Daughter,Not Married,Linen Weaver,read and write
-Speer,Wm,36,Dunaghy,26,male,Servant,Not Married,Linen Weaver,read and write
-Scullion,John,6,Dunaghay,26,male,Son,Not Married,Linen Weaver,read and write
-Redmond,Thomas,2,Dunaghy,26,male,Son,Not Married,Labourer,read only
-Rodmond,Jane,6,Dunaghy,26,female,Wife,Married,Linen Weaver,neither
-Wasson,John,8,Dunaghy,26,male,Son,Not Married,Farmer,read and write
-McAy,Crawfort,9,Dunaghy,26,male,Son,Not Married,Weaver,read only
-McCormick,Mathew,1,Dunaghy,26,male,Head Of Family,Not Married,Farmer,read and write
-McReegan,Jane,4,Dunaghy,26,female,Head Of Family,Not Married,House Keeper,read and write
-Magown,Samuel,12,Dunaghy,26,male,Son,Not Married,Linen Weaver,read and write
-Pottes,Sarah,16,Dunaghy,26,female,Wife,Married,House Keeper,read only
-Bradshaw,Ellen,5,Dunaghy,26,female,Daughter,Not Married,Dress Maker,read and write
-McConall,Edward,4,Dunaghy,26,male,other,Married,Miller,read and write
-Knox,James,12,Dunaghy,26,male,other,Not Married,No Employment,read only
-O'Lone,Catherin,3,Dunaghy,26,female,Wife,Married,No Employment,neither
-McCleary,James,8,Dunaghy,26,male,Head Of Family,Married,Linen Weaver,read only
-Bold,Samuel,8,Dunaghy,26,male,Servant,Not Married,Linen Weaver,neither
+Kennedy,Samuel,17,Ballymoney,26,Male,Son,Not Married,Farmer,read and write
+McCrackin,John,44,Ballymoney,26,Male,Head Of Family,Married,Linen Weaver,read and write
+Leslie,Mary,44,Ballymoney,26,Female,Wife,Married,No Employment,read and write
+Thompson,Rachal,1,Dunaghy,26,Female,Wife,Married,Weaver,read and write
+Mitchel,Eliza,7,Dunaghy,26,Female,Wife,Married,Weaver,read only
+Henery,Samuel,13,Dunaghy,26,Male,other,Married,,read only
+McOard,Samuel,18,Donaghy,26,Male,Head Of Family,Married,Farmer,read and write
+Slown,Matilda,24,Dunaghy,26,Female,Wife,Married,House Keeper,read and write
+Sloan,Elizabeth,27,Dunaghy,26,Female,Daughter,Married,No Employment,read and write
+Crawford,Mary Ann,42,Dunaghy,26,Female,Daughter,Not Married,Dress Maker,read and write
+Cubit,Jane,6,Dunaghy,26,Female,Daughter,Not Married,Linen Weaver,read and write
+Johnston,Elisabeth,14,Dunaghy,26,Female,Daughter,Not Married,Weaver,read only
+Smith,Martha,19,Dunaghy,26,Female,Wife,Married,Linen Weaver,read and write
+Johnston,John,21,Dunaghy,26,Male,Son,Not Married,Linen Weaver,read and write
+Speers,Elizabeth,28,Dunaghy,26,Female,Daughter,Not Married,Linen Weaver,read and write
+Speer,Wm,36,Dunaghy,26,Male,Servant,Not Married,Linen Weaver,read and write
+Scullion,John,6,Dunaghay,26,Male,Son,Not Married,Linen Weaver,read and write
+Redmond,Thomas,2,Dunaghy,26,Male,Son,Not Married,Labourer,read only
+Rodmond,Jane,6,Dunaghy,26,Female,Wife,Married,Linen Weaver,neither
+Wasson,John,8,Dunaghy,26,Male,Son,Not Married,Farmer,read and write
+McAy,Crawfort,9,Dunaghy,26,Male,Son,Not Married,Weaver,read only
+McCormick,Mathew,1,Dunaghy,26,Male,Head Of Family,Not Married,Farmer,read and write
+McReegan,Jane,4,Dunaghy,26,Female,Head Of Family,Not Married,House Keeper,read and write
+Magown,Samuel,12,Dunaghy,26,Male,Son,Not Married,Linen Weaver,read and write
+Pottes,Sarah,16,Dunaghy,26,Female,Wife,Married,House Keeper,read only
+Bradshaw,Ellen,5,Dunaghy,26,Female,Daughter,Not Married,Dress Maker,read and write
+McConall,Edward,4,Dunaghy,26,Male,other,Married,Miller,read and write
+Knox,James,12,Dunaghy,26,Male,other,Not Married,No Employment,read only
+O'Lone,Catherin,3,Dunaghy,26,Female,Wife,Married,No Employment,neither
+McCleary,James,8,Dunaghy,26,Male,Head Of Family,Married,Linen Weaver,read only
+Bold,Samuel,8,Dunaghy,26,Male,Servant,Not Married,Linen Weaver,neither
 Creighton,John,7,Dunaghy,26,Male,Son,Married,Labourer,read and write
 Creighton,Nancy,7,Dunaghy,26,Female,other,Married,Linen Weaver,read only
 Cupples,Joseph,19,Dunaghy,26,Male,Brother,Not Married,Linen Weaver,read and write
@@ -2993,7 +2993,7 @@ Greer,Margret,20,Ballinderry,26,Female,Daughter,Not Married,No Employment,read a
 Ryce,Ane Jane,26,Ballinderry,26,Female,Wife,Not Married,No Employment,read only
 Kidd,Eliza,29,Ballinderry,26,Female,Wife,Married,House Keeper,neither
 Connor,Ellen,43,Ballinderry,26,Female,Wife,Married,House Keeper,neither
-Alwill,Mary,8,Kinawley,26,female,Wife,Married,,neither
+Alwill,Mary,8,Kinawley,26,Female,Wife,Married,,neither
 McIver,Oney,1,Aghagallon,28,Male,,Not Married,Weaver,read only
 McDonnald,James,11,Aghagallon,28,Male,Son,Married,Linen Weaver,read only
 McQuillen,Edward,20,Aghagallon,28,Male,Head Of Family,Not Married,Linen Weaver,neither
@@ -3055,8 +3055,8 @@ Harper,Mary,148,Craigs,28,Female,Wife,Married,No Employment,read and write
 Kennedy,Wm,210,Craigs,28,Male,Head Of Family,Married,Linen Weaver,read and write
 Dodds,Thomas,213,Craigs,28,Male,Brother,Not Married,Linen Weaver,read and write
 Campbell,John,237,Craigs,28,Male,Head Of Family,Married,Bleacher,read and write
-McIlroy,Eliza,247,Craigs,28,female,Daughter,Not Married,No Employment,read and write
-McDonnel,Jane,257,Craigs,28,female,,Not Married,Spinster,read and write
+McIlroy,Eliza,247,Craigs,28,Female,Daughter,Not Married,No Employment,read and write
+McDonnel,Jane,257,Craigs,28,Female,,Not Married,Spinster,read and write
 McMullan,William,2,Ballinderry,28,Male,Servant,Not Married,Ploughman,read and write
 Montgomery,Elen,2,Ballinderry,28,Female,Head Of Family,Married,Farmer,read and write
 McCann,Serah,6,Ballinderry,28,Female,other,Married,cotton workers,read only
@@ -3229,20 +3229,20 @@ Millikin,George,18,Killead,28,Male,Head Of Family,Married,Farmer,read and write
 Graham,Wm,23,Killead,28,Male,Son,Not Married,Labourer,read and write
 Adgey,Sarah,28,Killead,28,Female,Daughter,Not Married,Flowerer/Gardener,read and write
 Sinclair,Ann,30,Killead,28,Female,Sister,Not Married,,read and write
-White,John,4,Killead,28,male,Head Of Family,Married,Labourer,read and write
-Wallace,Margaret,22,Killead,28,female,Daughter,Not Married,House Keeper,read and write
-Mairs,Agnes,3,Killead,28,female,Head Of Family,Not Married,Flowerer/Gardener,read only
-Nettleton,Maryan,3,Killead,28,female,other,Not Married,Knitter or sewer,read and write
-Falloon,Margt,4,Killead,28,female,Wife,Married,,read and write
-McOnnel,Mary Ann,16,Killead,28,female,Wife,Married,Flowerer/Gardener,neither
-Nugent,Ann,27,Killead,28,female,Daughter,Not Married,Flowerer/Gardener,read only
-Dawson,John,10,Killead,28,male,Head Of Family,Married,Care Taker,read and write
-Rabb,Jane,42,Killead,28,female,Wife,Married,Spinster,read and write
-Ensworth,John,46,Killead,28,male,Son,Not Married,Labourer,read only
-Liggate,Martha,53,Killead,28,female,Wife,Married,Spinster,read and write
-Moffat,Thomas,68,Killead,28,male,Son,Not Married,Shoe Maker,read and write
-Coleman,Sarah,95,Killead,28,female,Wife,Married,Flowerer/Gardener,read and write
-Henning,Jane,107,Killead,28,female,Niece,Not Married,No Employment,read and write
+White,John,4,Killead,28,Male,Head Of Family,Married,Labourer,read and write
+Wallace,Margaret,22,Killead,28,Female,Daughter,Not Married,House Keeper,read and write
+Mairs,Agnes,3,Killead,28,Female,Head Of Family,Not Married,Flowerer/Gardener,read only
+Nettleton,Maryan,3,Killead,28,Female,other,Not Married,Knitter or sewer,read and write
+Falloon,Margt,4,Killead,28,Female,Wife,Married,,read and write
+McOnnel,Mary Ann,16,Killead,28,Female,Wife,Married,Flowerer/Gardener,neither
+Nugent,Ann,27,Killead,28,Female,Daughter,Not Married,Flowerer/Gardener,read only
+Dawson,John,10,Killead,28,Male,Head Of Family,Married,Care Taker,read and write
+Rabb,Jane,42,Killead,28,Female,Wife,Married,Spinster,read and write
+Ensworth,John,46,Killead,28,Male,Son,Not Married,Labourer,read only
+Liggate,Martha,53,Killead,28,Female,Wife,Married,Spinster,read and write
+Moffat,Thomas,68,Killead,28,Male,Son,Not Married,Shoe Maker,read and write
+Coleman,Sarah,95,Killead,28,Female,Wife,Married,Flowerer/Gardener,read and write
+Henning,Jane,107,Killead,28,Female,Niece,Not Married,No Employment,read and write
 Thompson,Francis,10,Killead,28,Male,Head Of Family,Married,Ploughman,read only
 White,James,15,Killead,28,Male,Son,Not Married,Teacher/Principal,read and write
 White,William John,16,Killead,28,Male,Son,Not Married,Shoe Maker,read and write
@@ -3470,29 +3470,29 @@ McIlroy,Eliza,247,Craigs,28,Female,Daughter,Not Married,No Employment,read and w
 McDonnel,Jane,257,Craigs,28,Female,,Not Married,Spinster,read and write
 McIlroy,Eliza,247,Craigs,28,Female,Daughter,Not Married,No Employment,read and write
 McDonnel,Jane,257,Craigs,28,Female,,Not Married,Spinster,read and write
-Stuart,Nancy,1,Ballymoney,28,female,Wife,Married,House Keeper,read and write
-Patterson,Barbra,7,Ballymoney,28,female,Wife,Married,House Keeper,read and write
-Smyth,Elizabeth,33,Ballymoney,28,female,Wife,Married,House Keeper,read and write
-McCrackin,Mary,43,Ballymoney,28,female,Daughter,Not Married,Dress Maker,read and write
-McCalister,William,9,Dunaghy,28,male,Son,Not Married,Linen Weaver,read and write
-McBride,Eliza,2,Dunaghy,28,female,Daughter,Not Married,Linen Weaver,read only
-O'Lone,John,24,Dunaghy,28,male,Servant,Not Married,Labourer,read and write
-McLevy,Peeg Ann,27,Dunaghy,28,female,Servant,Not Married,House Keeper,read and write
-McCann,Nancy,30,Dunaghey,28,female,Servant,Not Married,Weaver,read only
-Money,Mary,25,Dunaghy,28,female,Servant,Not Married,Linen Weaver,neither
-McVicker,Daniel,27,Dunaghy,28,male,Head Of Family,Married,Police Man,read and write
-Leech,James,34,Dunaghy,28,male,Head Of Family,Married,Linen Weaver,read and write
-Scot,Isabella,45,Dunaghy,28,female,Wife,Married,Linen Weaver,read only
-McKart,Marey,2,Dunaghay,28,female,Sister,Not Married,No Employment,neither
-Redmond,Martha,2,Dunaghy,28,female,Daughter,Not Married,House Keeper,read only
-Montgomery,John,11,Dunaghy,28,male,Head Of Family,Married,Farmer,read and write
-Gregg,John,5,Dunaghy,28,male,Servant,Married,Labourer,read and write
-McCuly,Alexander,6,Dunaghy,28,male,Head Of Family,Married,Shoe Maker,read and write
-Greg,Ann,21,Dunaghy,28,female,Wife,Married,House Keeper,read only
-Carey,John,13,Dunaghy,28,male,Son,Not Married,Shoe Maker,read and write
-Gorden,Martha,4,Dunaghy,28,female,Daughter,Not Married,Linen Weaver,read only
-McKee,Jane,6,Dunaghy,28,female,Daughter,Not Married,Linen Weaver,read only
-Millar,Jane,5,Dunaghy,28,female,Wife,Married,House Keeper,read and write
+Stuart,Nancy,1,Ballymoney,28,Female,Wife,Married,House Keeper,read and write
+Patterson,Barbra,7,Ballymoney,28,Female,Wife,Married,House Keeper,read and write
+Smyth,Elizabeth,33,Ballymoney,28,Female,Wife,Married,House Keeper,read and write
+McCrackin,Mary,43,Ballymoney,28,Female,Daughter,Not Married,Dress Maker,read and write
+McCalister,William,9,Dunaghy,28,Male,Son,Not Married,Linen Weaver,read and write
+McBride,Eliza,2,Dunaghy,28,Female,Daughter,Not Married,Linen Weaver,read only
+O'Lone,John,24,Dunaghy,28,Male,Servant,Not Married,Labourer,read and write
+McLevy,Peeg Ann,27,Dunaghy,28,Female,Servant,Not Married,House Keeper,read and write
+McCann,Nancy,30,Dunaghey,28,Female,Servant,Not Married,Weaver,read only
+Money,Mary,25,Dunaghy,28,Female,Servant,Not Married,Linen Weaver,neither
+McVicker,Daniel,27,Dunaghy,28,Male,Head Of Family,Married,Police Man,read and write
+Leech,James,34,Dunaghy,28,Male,Head Of Family,Married,Linen Weaver,read and write
+Scot,Isabella,45,Dunaghy,28,Female,Wife,Married,Linen Weaver,read only
+McKart,Marey,2,Dunaghay,28,Female,Sister,Not Married,No Employment,neither
+Redmond,Martha,2,Dunaghy,28,Female,Daughter,Not Married,House Keeper,read only
+Montgomery,John,11,Dunaghy,28,Male,Head Of Family,Married,Farmer,read and write
+Gregg,John,5,Dunaghy,28,Male,Servant,Married,Labourer,read and write
+McCuly,Alexander,6,Dunaghy,28,Male,Head Of Family,Married,Shoe Maker,read and write
+Greg,Ann,21,Dunaghy,28,Female,Wife,Married,House Keeper,read only
+Carey,John,13,Dunaghy,28,Male,Son,Not Married,Shoe Maker,read and write
+Gorden,Martha,4,Dunaghy,28,Female,Daughter,Not Married,Linen Weaver,read only
+McKee,Jane,6,Dunaghy,28,Female,Daughter,Not Married,Linen Weaver,read only
+Millar,Jane,5,Dunaghy,28,Female,Wife,Married,House Keeper,read and write
 Gordon,Agnus,6,Dunaghy,28,Female,Wife,Married,No Employment,read only
 Gregg,William,31,Dunaghy,28,Male,Head Of Family,Married,Farmer,read and write
 Crow,Barnard,1,Dunaghy,28,Male,Son,Not Married,Labourer,neither
@@ -3785,9 +3785,9 @@ Mars,Thomas,224,Craigs,25,Male,Servant,Not Married,Linen Weaver,read only
 Boyde,Anne,225,Craigs,25,Female,Wife,Married,House Keeper,read and write
 Ferril,George,240,Craigs,25,Male,Head Of Family,Married,Bleacher,read and write
 Armstrong,Mary Jane,246,Craigs,25,Female,Daughter,Married,Linen Weaver,read only
-Ross,Charlotte,251,Craigs,25,female,Wife,Married,Wash Woman,read only
-Millie,Rose,256,Craigs,25,female,Wife,Married,Linen Weaver,read only
-McThoy,Elen,259,Craigs,25,female,Servant,Married,Weaver,read only
+Ross,Charlotte,251,Craigs,25,Female,Wife,Married,Wash Woman,read only
+Millie,Rose,256,Craigs,25,Female,Wife,Married,Linen Weaver,read only
+McThoy,Elen,259,Craigs,25,Female,Servant,Married,Weaver,read only
 McKernan,William,3,Ballinderry,25,Male,Servant,Not Married,Ploughman,neither
 McKinstry,Nathaniel,8,Ballinderry,25,Male,Son,Not Married,Labourer,read and write
 Becket,William,13,Ballinderry,25,Male,Son,Not Married,Ploughman,read and write
@@ -3990,29 +3990,29 @@ Hamilton,Samuel,3,Killead,25,Male,Servant,Not Married,Ploughman,read only
 Auntony,William,5,Killead,25,Male,Servant,Not Married,Ploughman,read only
 McDonnell,Rachel,9,Killead,25,Female,Visitor,Not Married,Flowerer/Gardener,read only
 Melon,May,5,Killead,25,Female,Servant,Not Married,servant,read and write
-Armstrong,Eliza,5,Killead,25,female,Sister,Not Married,Spinster,read and write
-Clarke,Sarah,3,Killead,25,female,Visitor,Not Married,servant,read and write
-McGivern,Thos,6,Killead,25,male,Son,Not Married,Blacksmith,read and write
-Suffern,Clementina,9,Killead,25,female,Wife,Not Married,Farmer,read and write
-Rankin,William,9,Killead,25,male,Servant,Not Married,Labourer,read only
-McConnell,James,10,Killead,25,male,Head Of Family,Not Married,Farmer,read and write
-McKeown,Patrick,24,Killead,25,male,Son,Not Married,Labourer,neither
-Daly,Peter,35,Killead,25,male,Son,Not Married,Labourer,read and write
-Millar,Rebacca,47,Killead,25,female,Sister,Not Married,Sawing,read and write
-Nichol,Wm Jno,7,Killead,25,male,Son,Not Married,Farmer,read and write
-Hamilton,Mathew,5,Killead,25,male,Servant,Not Married,Farmer,read and write
-Nichol,Sarah,12,Killead,25,female,Daughter,Not Married,Knitter or sewer,read and write
-Wilson,Mary,20,Killead,25,female,Wife,Married,Knitter or sewer,read and write
-White,Ann,20,Killead,25,female,Servant,Not Married,Nurse,read only
-Ainsworth,James,31,Killead,25,male,Head Of Family,Married,Labourer,read only
-Kirkpatrick,John,34,Killead,25,male,Head Of Family,Married,Stone Mason,read and write
-McAdam,Ann,36,Killead,25,female,Daughter,Not Married,Flowerer/Gardener,read and write
-Barnet,Eliza,42,Killead,25,female,other,Not Married,Spinster,read and write
-Mulheron,Mary,49,Killead,25,female,Daughter,Not Married,Flowerer/Gardener,read and write
-Cuming,Samuel,53,Killead,25,male,Servant,Not Married,Ploughman,read and write
-Morrow,William,80,Killead,25,male,Servant,Not Married,Ploughman,read and write
-Kennedy,Wm,81,Killead,25,male,other,Married,flax worker,read and write
-Mulholland,Mary E Elen,84,Killead,25,female,Wife,Married,Flowerer/Gardener,read only
+Armstrong,Eliza,5,Killead,25,Female,Sister,Not Married,Spinster,read and write
+Clarke,Sarah,3,Killead,25,Female,Visitor,Not Married,servant,read and write
+McGivern,Thos,6,Killead,25,Male,Son,Not Married,Blacksmith,read and write
+Suffern,Clementina,9,Killead,25,Female,Wife,Not Married,Farmer,read and write
+Rankin,William,9,Killead,25,Male,Servant,Not Married,Labourer,read only
+McConnell,James,10,Killead,25,Male,Head Of Family,Not Married,Farmer,read and write
+McKeown,Patrick,24,Killead,25,Male,Son,Not Married,Labourer,neither
+Daly,Peter,35,Killead,25,Male,Son,Not Married,Labourer,read and write
+Millar,Rebacca,47,Killead,25,Female,Sister,Not Married,Sawing,read and write
+Nichol,Wm Jno,7,Killead,25,Male,Son,Not Married,Farmer,read and write
+Hamilton,Mathew,5,Killead,25,Male,Servant,Not Married,Farmer,read and write
+Nichol,Sarah,12,Killead,25,Female,Daughter,Not Married,Knitter or sewer,read and write
+Wilson,Mary,20,Killead,25,Female,Wife,Married,Knitter or sewer,read and write
+White,Ann,20,Killead,25,Female,Servant,Not Married,Nurse,read only
+Ainsworth,James,31,Killead,25,Male,Head Of Family,Married,Labourer,read only
+Kirkpatrick,John,34,Killead,25,Male,Head Of Family,Married,Stone Mason,read and write
+McAdam,Ann,36,Killead,25,Female,Daughter,Not Married,Flowerer/Gardener,read and write
+Barnet,Eliza,42,Killead,25,Female,other,Not Married,Spinster,read and write
+Mulheron,Mary,49,Killead,25,Female,Daughter,Not Married,Flowerer/Gardener,read and write
+Cuming,Samuel,53,Killead,25,Male,Servant,Not Married,Ploughman,read and write
+Morrow,William,80,Killead,25,Male,Servant,Not Married,Ploughman,read and write
+Kennedy,Wm,81,Killead,25,Male,other,Married,flax worker,read and write
+Mulholland,Mary E Elen,84,Killead,25,Female,Wife,Married,Flowerer/Gardener,read only
 Porter,Alexr,9,Killead,25,Male,Son,Not Married,Ploughman,read and write
 Craig,John,11,Killead,25,Male,Head Of Family,Not Married,Farmer,read and write
 Garland,Margaret,13,Killead,25,Female,,Not Married,House Keeper,read and write
@@ -4138,7 +4138,7 @@ Wilkerg,Martha,39,Taughboyne,25,Female,Wife,Married,No Employment,read only
 Gallwan,Timothy,3,Ballinvoher,25,Male,,Not Married,Farmer,read and write
 Kennady,John,25,Lusk,25,Male,Son,Not Married,Weaver,read and write
 Savage,Matt,25,Killerry,25,Male,Head Of Family,Married,Labourer,neither
-Veale,Mary,1,Ardmore,25,female,Daughter,Not Married,,read and write
+Veale,Mary,1,Ardmore,25,Female,Daughter,Not Married,,read and write
 Mooney,Patrick,2,Tickmacrevan,25,Male,other,Married,seaman,read and write
 McKenty,Thos,15,Tickmacrevan,25,Male,other,Not Married,seaman,read and write
 Hannah,Sophia,49,Tickmacrevan,25,Female,Daughter,Not Married,Dress Maker,read and write
@@ -4273,48 +4273,48 @@ Armstrong,Mary Jane,246,Craigs,25,Female,Daughter,Not Married,Linen Weaver,read 
 Ross,Charletto,251,Craigs,25,Female,Wife,Married,Wash Woman,read only
 Millie,Rose,256,Craigs,25,Female,Wife,Married,Linen Weaver,read only
 McThoy,Elen,259,Craigs,25,Female,Servant,Married,Weaver,read only
-Thompson,Samuel,1,Dunaghy,25,male,Head Of Family,Married,Farmer,read and write
-McClure,Mary,8,Dunaghy,25,female,Servant,Not Married,House Keeper,read and write
-Arrow,John,8,Dunaghy,25,male,Servant,Not Married,,read and write
-Lintan,Ann,15,Dunaghy,25,female,Daughter,Not Married,Linen Weaver,read only
-Stewart,Jane,19,Dunaghy,25,female,Wife,Married,No Employment,read and write
-Coleman,Robert,8,Clough,25,male,Son,Married,Ploughman,read and write
-Coleman,Elisabeth,8,Clough,25,female,other,Married,,read only
-Reid,William,10,Dunaghy,25,male,Head Of Family,Married,Land Holder,read and write
-O'Harra,Jane,10,Dunaghy,25,female,Servant,Not Married,Weaver,read only
-Campbell,Molly,16,Denaughy,25,female,Head Of Family,Married,Linen Weaver,read only
-McKendry,Charless,19,Dunaghy,25,male,Head Of Family,Married,Labourer,neither
-Laverty,Mally,24,Dunaghy,25,male,Servant,Not Married,House Keeper,read and write
-Hamilton,Nancy,29,Dunaghy,25,female,other,Not Married,Linen Weaver,read only
-Crawford,Isabella,42,Dunaghy,25,female,Daughter,Not Married,House Keeper,read and write
-Kenneway,Edward,47,Dunaghy,25,male,Head Of Family,Married,Linen Weaver,read only
-Magill,M A,48,Dunaghy,25,female,Wife,Married,No Employment,read only
-Caldwells,Mary T,5,Dunaghy,25,female,Daughter,Not Married,Spinster,read and write
-Glasgow,Alex,11,Dunaghy,25,male,Servant,Married,Labourer,read only
-Houston,James,13,Dunaghy,25,male,Son,Not Married,Linen Weaver,read and write
-Hinson,James,22,Dunaghy,25,male,Head Of Family,Married,Linen Weaver,read only
-White,Rose May,32,Dunaghy,25,female,Daughter,Not Married,House Keeper,read and write
-Smith,Margret,38,Dunaghy,25,female,Daughter,Not Married,Linen Weaver,read only
-Miller,Margretta,42,Dunaghy,25,female,Daughter,Not Married,Spinster,read only
-Scullion,Jeremiah,4,Dunaghay,25,male,Head Of Family,Married,Farmer,neither
-Scullion,Nancey,4,Dunaghay,25,female,Wife,Married,House Keeper,neither
-Potter,Sarah,8,Dunaghy,25,female,Daughter,Not Married,Linen Weaver,read only
-McKeever,William,2,Dunaghy,25,male,Brother,Not Married,Labourer,read only
-McAllister,Patk,3,Dunaghy,25,male,Servant,Not Married,Labourer,neither
-Donnelly,John,5,Dunaghy,25,male,Son,Not Married,Linen Weaver,read and write
-Blair,Eliza,19,Dunaghy,25,female,Daughter,Not Married,Winder,read only
-Moore,Jane,19,Dunaghy,25,female,Visitor,Not Married,No Employment,neither
-McKendry,Robert,2,Dunaghy,25,male,Son,Not Married,Ploughman,read and write
-McNight,James,2,Dunaghy,25,male,Servant,Not Married,Labourer,read and write
-McCreight,James,10,Dunaghy,25,male,Head Of Family,Married,Linen Weaver,read and write
-Watson,John,12,Dunaghy,25,male,other,Married,Linen Weaver,read and write
-Kirk,David,21,Dunaghy,25,male,Son,Not Married,Labourer,read only
-Knox,James,5,Dunaghy,25,male,Head Of Family,Married,Labourer,read only
-Kellough,Sally,12,Dunaghy,25,female,Servant,Not Married,Weaver,read only
-Whiteside,Ellen,3,Dunaghy,25,female,Servant,Not Married,No Employment,neither
-Steel,Margret,4,Dunaghy,25,female,Servant,Not Married,House Keeper,read and write
-Pernlote,Margret,10,Dunaghy,25,female,Servant,Not Married,Linen Weaver,neither
-McQuillin,Mary,8,Dunaghy,25,female,Wife,Married,No Employment,read only
+Thompson,Samuel,1,Dunaghy,25,Male,Head Of Family,Married,Farmer,read and write
+McClure,Mary,8,Dunaghy,25,Female,Servant,Not Married,House Keeper,read and write
+Arrow,John,8,Dunaghy,25,Male,Servant,Not Married,,read and write
+Lintan,Ann,15,Dunaghy,25,Female,Daughter,Not Married,Linen Weaver,read only
+Stewart,Jane,19,Dunaghy,25,Female,Wife,Married,No Employment,read and write
+Coleman,Robert,8,Clough,25,Male,Son,Married,Ploughman,read and write
+Coleman,Elisabeth,8,Clough,25,Female,other,Married,,read only
+Reid,William,10,Dunaghy,25,Male,Head Of Family,Married,Land Holder,read and write
+O'Harra,Jane,10,Dunaghy,25,Female,Servant,Not Married,Weaver,read only
+Campbell,Molly,16,Denaughy,25,Female,Head Of Family,Married,Linen Weaver,read only
+McKendry,Charless,19,Dunaghy,25,Male,Head Of Family,Married,Labourer,neither
+Laverty,Mally,24,Dunaghy,25,Male,Servant,Not Married,House Keeper,read and write
+Hamilton,Nancy,29,Dunaghy,25,Female,other,Not Married,Linen Weaver,read only
+Crawford,Isabella,42,Dunaghy,25,Female,Daughter,Not Married,House Keeper,read and write
+Kenneway,Edward,47,Dunaghy,25,Male,Head Of Family,Married,Linen Weaver,read only
+Magill,M A,48,Dunaghy,25,Female,Wife,Married,No Employment,read only
+Caldwells,Mary T,5,Dunaghy,25,Female,Daughter,Not Married,Spinster,read and write
+Glasgow,Alex,11,Dunaghy,25,Male,Servant,Married,Labourer,read only
+Houston,James,13,Dunaghy,25,Male,Son,Not Married,Linen Weaver,read and write
+Hinson,James,22,Dunaghy,25,Male,Head Of Family,Married,Linen Weaver,read only
+White,Rose May,32,Dunaghy,25,Female,Daughter,Not Married,House Keeper,read and write
+Smith,Margret,38,Dunaghy,25,Female,Daughter,Not Married,Linen Weaver,read only
+Miller,Margretta,42,Dunaghy,25,Female,Daughter,Not Married,Spinster,read only
+Scullion,Jeremiah,4,Dunaghay,25,Male,Head Of Family,Married,Farmer,neither
+Scullion,Nancey,4,Dunaghay,25,Female,Wife,Married,House Keeper,neither
+Potter,Sarah,8,Dunaghy,25,Female,Daughter,Not Married,Linen Weaver,read only
+McKeever,William,2,Dunaghy,25,Male,Brother,Not Married,Labourer,read only
+McAllister,Patk,3,Dunaghy,25,Male,Servant,Not Married,Labourer,neither
+Donnelly,John,5,Dunaghy,25,Male,Son,Not Married,Linen Weaver,read and write
+Blair,Eliza,19,Dunaghy,25,Female,Daughter,Not Married,Winder,read only
+Moore,Jane,19,Dunaghy,25,Female,Visitor,Not Married,No Employment,neither
+McKendry,Robert,2,Dunaghy,25,Male,Son,Not Married,Ploughman,read and write
+McNight,James,2,Dunaghy,25,Male,Servant,Not Married,Labourer,read and write
+McCreight,James,10,Dunaghy,25,Male,Head Of Family,Married,Linen Weaver,read and write
+Watson,John,12,Dunaghy,25,Male,other,Married,Linen Weaver,read and write
+Kirk,David,21,Dunaghy,25,Male,Son,Not Married,Labourer,read only
+Knox,James,5,Dunaghy,25,Male,Head Of Family,Married,Labourer,read only
+Kellough,Sally,12,Dunaghy,25,Female,Servant,Not Married,Weaver,read only
+Whiteside,Ellen,3,Dunaghy,25,Female,Servant,Not Married,No Employment,neither
+Steel,Margret,4,Dunaghy,25,Female,Servant,Not Married,House Keeper,read and write
+Pernlote,Margret,10,Dunaghy,25,Female,Servant,Not Married,Linen Weaver,neither
+McQuillin,Mary,8,Dunaghy,25,Female,Wife,Married,No Employment,read only
 Hamilton,Jane,37,Dunaghy,25,Female,Wife,Married,Winder,read and write
 Hume,John,37,Dunaghy,25,Male,Servant,Married,Linen Weaver,read and write
 Crow,Jane,3,Dunaghy,25,Female,Wife,Married,Linen Weaver,read only
@@ -4444,7 +4444,7 @@ Hull,W John,85,Aghagallon,25,Male,Visitor,Not Married,Stone Mason,read and write
 Young,Alexander,86,Aghagallon,25,Male,Head Of Family,Married,Linen Weaver,read and write
 Campbell,William,102,Aghagallon,25,Male,Son,Not Married,Weaver,read only
 Skelton,Henry,105,Aghagallon,25,Male,Head Of Family,Married,Fisherman,neither
-Crawford,George,7,Aghagallon,25,male,Son,Married,Linen Weaver,read and write
+Crawford,George,7,Aghagallon,25,Male,Son,Married,Linen Weaver,read and write
 Ward,Mary,22,Aghagallon,25,Female,Wife,Married,No Employment,read only
 Bunting,Samuel,12,Aghagallon,25,Male,Son,Not Married,Linen Weaver,read only
 Anderson,Ann,33,Aghagallon,25,Female,Daughter,Married,Linen Weaver,read only
@@ -4624,8 +4624,8 @@ Manson,Mary,200,Craigs,24,Female,Wife,Married,,read and write
 Caves,James,241,Craigs,24,Male,Head Of Family,Married,Labourer,read only
 Story,Charlett,243,Craigs,24,Female,Daughter,Not Married,Dress Maker,read and write
 Stirling,Elizabeth,244,Craigs,24,Female,Daughter,Not Married,Linen Weaver,read and write
-McIlroy,Saml,247,Craigs,24,male,Son,Not Married,Merchant,read and write
-Clairey,Isabella,254,Craigs,24,female,Sister,Not Married,,read and write
+McIlroy,Saml,247,Craigs,24,Male,Son,Not Married,Merchant,read and write
+Clairey,Isabella,254,Craigs,24,Female,Sister,Not Married,,read and write
 Moorhead,Josias,10,Ballinderry,24,Male,Son,Not Married,Farmer,read and write
 Dickson,Isac,18,Ballinderry,24,Male,Head Of Family,Married,cotton workers,neither
 Fotton,Allice,19,Ballinderry,24,Female,Wife,Married,cotton workers,read only
@@ -4858,24 +4858,24 @@ Grahams,William,22,Killead,24,Male,Head Of Family,Married,Farmer,read and write
 Moore,Wm,26,Killead,24,Male,Nephew,Not Married,Labourer,read and write
 Adgey,Mary,28,Killead,24,Female,Daughter,Not Married,Flowerer/Gardener,read and write
 Manderson,John,3,Killead,24,Male,Head Of Family,Not Married,Farmer,read and write
-Allen,Susanna,21,Killead,24,female,Daughter,Not Married,Flowerer/Gardener,read and write
-Auld,Nancy,5,Killead,24,female,Daughter,Not Married,Dress Maker,read and write
-McCann,Eliza,7,Killead,24,female,Daughter,Not Married,Embroiderer/Tambourer,read only
-Gray,William,8,Killead,24,male,Head Of Family,Married,Labourer,read and write
-Macartney,Eliza,16,Killead,24,female,Servant,Not Married,House Keeper,read and write
-Mollyneaux,Mary,4,Killead,24,female,Servant,Not Married,servant,neither
-Megrady,Jane,15,Killead,24,female,Servant,Not Married,Laundress,neither
-Irwin,Sarah,51,Killead,24,female,Daughter,Not Married,Dress Maker,read and write
-Galway,Susan,53,Killead,24,female,Head Of Family,Not Married,Flowerer/Gardener,read only
-Craig,Nancy,62,Killead,24,female,Daughter,Not Married,Shewing,read and write
-Colgan,Mary,5,Killead,24,female,Servant,Not Married,servant,neither
-Nixon,James,21,Killead,24,male,Son,Not Married,Farmer,read and write
-Faulkener,Samuel,9,Killead,24,male,other,Married,Labourer,read and write
-Ainsworth,Martha,11,Killead,24,female,Daughter,Married,Flowerer/Gardener,read only
-Kirkpatrick,Hannah,34,Killead,24,female,Wife,Married,No Employment,read only
-Ensworth,Samuel,46,Killead,24,male,Son,Not Married,Labourer,read only
-Endsworth,John,96,Killead,24,male,Son,Not Married,Labourer,neither
-McMullen,Sarah,98,Killead,24,female,Servant,Not Married,servant,read only
+Allen,Susanna,21,Killead,24,Female,Daughter,Not Married,Flowerer/Gardener,read and write
+Auld,Nancy,5,Killead,24,Female,Daughter,Not Married,Dress Maker,read and write
+McCann,Eliza,7,Killead,24,Female,Daughter,Not Married,Embroiderer/Tambourer,read only
+Gray,William,8,Killead,24,Male,Head Of Family,Married,Labourer,read and write
+Macartney,Eliza,16,Killead,24,Female,Servant,Not Married,House Keeper,read and write
+Mollyneaux,Mary,4,Killead,24,Female,Servant,Not Married,servant,neither
+Megrady,Jane,15,Killead,24,Female,Servant,Not Married,Laundress,neither
+Irwin,Sarah,51,Killead,24,Female,Daughter,Not Married,Dress Maker,read and write
+Galway,Susan,53,Killead,24,Female,Head Of Family,Not Married,Flowerer/Gardener,read only
+Craig,Nancy,62,Killead,24,Female,Daughter,Not Married,Shewing,read and write
+Colgan,Mary,5,Killead,24,Female,Servant,Not Married,servant,neither
+Nixon,James,21,Killead,24,Male,Son,Not Married,Farmer,read and write
+Faulkener,Samuel,9,Killead,24,Male,other,Married,Labourer,read and write
+Ainsworth,Martha,11,Killead,24,Female,Daughter,Married,Flowerer/Gardener,read only
+Kirkpatrick,Hannah,34,Killead,24,Female,Wife,Married,No Employment,read only
+Ensworth,Samuel,46,Killead,24,Male,Son,Not Married,Labourer,read only
+Endsworth,John,96,Killead,24,Male,Son,Not Married,Labourer,neither
+McMullen,Sarah,98,Killead,24,Female,Servant,Not Married,servant,read only
 Porter,Sarah,9,Killead,24,Female,other,Married,Knitter or sewer,read and write
 Craig,Sarah,11,Killead,24,Female,Sister,Not Married,servant,read and write
 White,Matthew,16,Killead,24,Male,Son,Not Married,Farmer,read and write
@@ -5133,57 +5133,57 @@ Story,Charlett,243,Craigs,24,Female,Daughter,Not Married,Dress Maker,read and wr
 Stirling,Elizabeth,244,Craigs,24,Female,Daughter,Not Married,Linen Weaver,read and write
 McIlroy,Saml,247,Craigs,24,Male,Son,Not Married,Merchant,read and write
 Clairey,Isabella,254,Craigs,24,Female,Sister,Not Married,,read and write
-Townsend,George,9,Ballymoney,24,male,Son,Not Married,Farmer,read and write
-Kennedy,John,17,Ballymoney,24,male,Son,Not Married,Farmer,read and write
-Leslie,Mary,24,Ballymoney,24,female,Wife,Married,House Keeper,read only
-McKeighan,Elizabeth,49,Ballymoney,24,female,Daughter,Not Married,Dress Maker,read and write
+Townsend,George,9,Ballymoney,24,Male,Son,Not Married,Farmer,read and write
+Kennedy,John,17,Ballymoney,24,Male,Son,Not Married,Farmer,read and write
+Leslie,Mary,24,Ballymoney,24,Female,Wife,Married,House Keeper,read only
+McKeighan,Elizabeth,49,Ballymoney,24,Female,Daughter,Not Married,Dress Maker,read and write
 Craig,Nancy,62,Killead,24,Female,Daughter,Not Married,Shewing,read and write
-Carmichael,James,58,Ballymoney,24,male,Son,Married,Farmer,read and write
-Cupples,Robert,6,Dunaghy,24,male,Son,Not Married,,read and write
-McCreath,Janet,8,Dunaghy,24,female,Wife,Married,,read and write
-McConnechin,P Jane,8,Dunaghy,24,female,Servant,Not Married,,read only
-Henery,Nancy,13,Dunaghy,24,female,Daughter,Married,,read only
-Stewart,W J,16,Dunaghy,24,male,Head Of Family,Married,Farmer,read and write
-Stewart,Margret,16,Dunaghy,24,female,Wife,Married,Linen Weaver,read and write
-McReegan,William,11,Dunaghy,24,male,Son,Not Married,Farmer,read and write
-Murphy,Mary,13,Dunaghy,24,female,Visitor,Not Married,Nurse,neither
-Swan,Ann,20,Dunaghy,24,female,Wife,Married,Linen Weaver,read only
-Glascow,Ellinor,49,Dunaghy,24,female,Daughter,Married,No Employment,neither
-Reth,Ann,54,Dunaghy,24,female,Daughter,Not Married,No Employment,read only
-McWilliams,John,1,Dunaghy,24,male,Son,Not Married,Farmer,read and write
-Cubit,Catherine,6,Dunaghy,24,female,Daughter,Not Married,Linen Weaver,read and write
-Johnston,,21,Dunaghy,24,female,Daughter,Married,Linen Weaver,read only
-Speers,Margret,28,Dunaghy,24,female,Daughter,Not Married,Linen Weaver,read and write
-Neely,Sarah,42,Dunaghy,24,female,Servant,Not Married,Linen Weaver,read only
-McKart,Bernad,2,Dunaghay,24,male,Head Of Family,Not Married,Linen Weaver,read and write
-McKart,Rose,2,Dunaghay,24,female,Sister,Not Married,No Employment,neither
-Lowrey,Rosey,1,Dunaghy,24,female,Daughter,Not Married,Linen Weaver,read only
-Redmond,James,2,Dunaghy,24,male,Son,Not Married,Linen Weaver,read only
-Wasson,James,8,Dunaghy,24,male,Son,Not Married,Linen Weaver,read and write
-Montgomery,Eliza,11,Dunaghy,24,female,Wife,Married,,read and write
-Knocks,Nancy,1,Dunaghy,24,female,Servant,Not Married,House Keeper,read only
-McGowan,Mary,9,Dunaghy,24,female,Servant,Not Married,Linen Weaver,read only
-McCormick,Ann,1,Dunaghy,24,female,Sister,Not Married,servant,read and write
-Kerr,Chas,10,Dunaghy,24,male,Son,Not Married,Labourer,read and write
-Darragh,James,12,Dunaghy,24,male,other,Married,Linen Weaver,neither
-McMaster,Thos,17,Dunaghy,24,male,Head Of Family,Married,Teed Maker,read and write
-Ward,John,18,Dunaghy,24,male,Son,Not Married,Labourer,read and write
-Nimmons,C Ann,20,Dunaghy,24,female,Daughter,Not Married,Knitter or sewer,read only
-Hygins,Margt,1,Dunaghy,24,female,Wife,Married,No Employment,read and write
-Bradshaw,Hugh,5,Dunaghy,24,male,Son,Not Married,Linen Weaver,read and write
-Scott,Hugh,7,Dunaghy,24,male,Son,Not Married,Linen Weaver,read and write
-McKendry,Cathn,8,Dunaghy,24,female,Daughter,Not Married,Dress Maker,read only
-McGaughan,Jeremy,8,Dunaghy,24,male,other,Married,Labourer,read only
-McAteer,Francies,4,Dunaghy,24,male,Son,Not Married,Tailor,read only
-Callagh,Ailsa,4,Dunaghy,24,female,Servant,Not Married,Linen Weaver,read only
-Wiles,Jane,11,Dunaghy,24,female,Daughter,Not Married,House Keeper,read and write
-McVice,Isabela,5,Dunaghy,24,female,Daughter,Not Married,Winner,read and write
-O'Loan,John,10,Dunaghy,24,male,Son,Not Married,Linen Weaver,read and write
-McAlister,Margt,1,Dunaghy,24,female,Daughter,Not Married,No Employment,read only
-McCann,Daniel,2,Dunaghy,24,male,Son,Married,Linen Weaver,read and write
-McCann,Mary,3,Dunaghy,24,female,Daughter,Not Married,No Employment,neither
-Abernethy,William,1,Dunaghy,24,male,Son,Not Married,Assistant,read and write
-McFreatrige,John,6,Dunaghy,24,male,Son,Not Married,Linen Weaver,read and write
+Carmichael,James,58,Ballymoney,24,Male,Son,Married,Farmer,read and write
+Cupples,Robert,6,Dunaghy,24,Male,Son,Not Married,,read and write
+McCreath,Janet,8,Dunaghy,24,Female,Wife,Married,,read and write
+McConnechin,P Jane,8,Dunaghy,24,Female,Servant,Not Married,,read only
+Henery,Nancy,13,Dunaghy,24,Female,Daughter,Married,,read only
+Stewart,W J,16,Dunaghy,24,Male,Head Of Family,Married,Farmer,read and write
+Stewart,Margret,16,Dunaghy,24,Female,Wife,Married,Linen Weaver,read and write
+McReegan,William,11,Dunaghy,24,Male,Son,Not Married,Farmer,read and write
+Murphy,Mary,13,Dunaghy,24,Female,Visitor,Not Married,Nurse,neither
+Swan,Ann,20,Dunaghy,24,Female,Wife,Married,Linen Weaver,read only
+Glascow,Ellinor,49,Dunaghy,24,Female,Daughter,Married,No Employment,neither
+Reth,Ann,54,Dunaghy,24,Female,Daughter,Not Married,No Employment,read only
+McWilliams,John,1,Dunaghy,24,Male,Son,Not Married,Farmer,read and write
+Cubit,Catherine,6,Dunaghy,24,Female,Daughter,Not Married,Linen Weaver,read and write
+Johnston,,21,Dunaghy,24,Female,Daughter,Married,Linen Weaver,read only
+Speers,Margret,28,Dunaghy,24,Female,Daughter,Not Married,Linen Weaver,read and write
+Neely,Sarah,42,Dunaghy,24,Female,Servant,Not Married,Linen Weaver,read only
+McKart,Bernad,2,Dunaghay,24,Male,Head Of Family,Not Married,Linen Weaver,read and write
+McKart,Rose,2,Dunaghay,24,Female,Sister,Not Married,No Employment,neither
+Lowrey,Rosey,1,Dunaghy,24,Female,Daughter,Not Married,Linen Weaver,read only
+Redmond,James,2,Dunaghy,24,Male,Son,Not Married,Linen Weaver,read only
+Wasson,James,8,Dunaghy,24,Male,Son,Not Married,Linen Weaver,read and write
+Montgomery,Eliza,11,Dunaghy,24,Female,Wife,Married,,read and write
+Knocks,Nancy,1,Dunaghy,24,Female,Servant,Not Married,House Keeper,read only
+McGowan,Mary,9,Dunaghy,24,Female,Servant,Not Married,Linen Weaver,read only
+McCormick,Ann,1,Dunaghy,24,Female,Sister,Not Married,servant,read and write
+Kerr,Chas,10,Dunaghy,24,Male,Son,Not Married,Labourer,read and write
+Darragh,James,12,Dunaghy,24,Male,other,Married,Linen Weaver,neither
+McMaster,Thos,17,Dunaghy,24,Male,Head Of Family,Married,Teed Maker,read and write
+Ward,John,18,Dunaghy,24,Male,Son,Not Married,Labourer,read and write
+Nimmons,C Ann,20,Dunaghy,24,Female,Daughter,Not Married,Knitter or sewer,read only
+Hygins,Margt,1,Dunaghy,24,Female,Wife,Married,No Employment,read and write
+Bradshaw,Hugh,5,Dunaghy,24,Male,Son,Not Married,Linen Weaver,read and write
+Scott,Hugh,7,Dunaghy,24,Male,Son,Not Married,Linen Weaver,read and write
+McKendry,Cathn,8,Dunaghy,24,Female,Daughter,Not Married,Dress Maker,read only
+McGaughan,Jeremy,8,Dunaghy,24,Male,other,Married,Labourer,read only
+McAteer,Francies,4,Dunaghy,24,Male,Son,Not Married,Tailor,read only
+Callagh,Ailsa,4,Dunaghy,24,Female,Servant,Not Married,Linen Weaver,read only
+Wiles,Jane,11,Dunaghy,24,Female,Daughter,Not Married,House Keeper,read and write
+McVice,Isabela,5,Dunaghy,24,Female,Daughter,Not Married,Winner,read and write
+O'Loan,John,10,Dunaghy,24,Male,Son,Not Married,Linen Weaver,read and write
+McAlister,Margt,1,Dunaghy,24,Female,Daughter,Not Married,No Employment,read only
+McCann,Daniel,2,Dunaghy,24,Male,Son,Married,Linen Weaver,read and write
+McCann,Mary,3,Dunaghy,24,Female,Daughter,Not Married,No Employment,neither
+Abernethy,William,1,Dunaghy,24,Male,Son,Not Married,Assistant,read and write
+McFreatrige,John,6,Dunaghy,24,Male,Son,Not Married,Linen Weaver,read and write
 Hume,Saml,12,Dunaghy,24,Male,Head Of Family,Married,Linen Weaver,read and write
 McHagger,Jane,17,Dunaghy,24,Female,Servant,Not Married,Linen Weaver,read only
 McIntire,Mary,29,Dunaghy,24,Female,Wife,Married,Winder,read only
@@ -5500,7 +5500,7 @@ Duart,Joseph,222,Craigs,22,Male,Head Of Family,Married,Linen Weaver,read and wri
 Campbell,Margaret,237,Craigs,22,Female,Wife,Married,Knitter or sewer,read and write
 Millis,John,238,Craigs,22,Male,Son,Not Married,Weaver,read and write
 Montgomery,James,239,Craigs,22,Male,Head Of Family,Married,Carpenter,read and write
-McIlroy,Joseph,247,Craigs,22,male,Son,Not Married,No Employment,read and write
+McIlroy,Joseph,247,Craigs,22,Male,Son,Not Married,No Employment,read and write
 Weir,Alexr,266,Craigs,22,Male,Head Of Family,Married,Linen Weaver,read and write
 Bell,Ellen,1,Ballinderry,22,Female,Servant,Not Married,servant,neither
 Moorhead,James,10,Ballinderry,22,Male,Son,Not Married,Labourer,read and write
@@ -5772,31 +5772,31 @@ Grahams,Rebecca,22,Killead,22,Female,Wife,Married,,read and write
 McClure,David,30,Killead,22,Male,other,Not Married,Farmer,read only
 Hull,Henry,9,Killead,22,Male,Son,Not Married,Labourer,read and write
 Alen,Mary,14,Killead,22,Female,Wife,Married,No Employment,read only
-Young,John,3,Killead,22,male,Servant,Not Married,Labourer,read and write
-Armstrong,Wm John,5,Killead,22,male,Head Of Family,Not Married,Labourer,read and write
-Thompson,Sarah,10,Killead,22,female,Wife,Married,Spinster,read and write
-Brown,Eliza,17,Killead,22,female,Daughter,Not Married,Spinster,read and write
-Young,Arthur,20,Killead,22,male,Head Of Family,Not Married,Farmer,read and write
-Wallace,David,22,Killead,22,male,Son,Not Married,Ploughman,read and write
-Mairs,Sarah Jane,3,Killead,22,female,Sister,Not Married,Flowerer/Gardener,read only
-Rea,Nancy Jane,4,Killead,22,female,Daughter,Not Married,Embroiderer/Tambourer,read and write
-Gourley,Ann Isabella,8,Killead,22,female,other,Not Married,Dress Maker,read only
-Higgins,Mabella,1,Killead,22,female,Daughter,Not Married,Knitter or sewer,read and write
-Gibbins,William,25,Killead,22,male,Son,Not Married,Labourer,neither
-Mullen,John,32,Killead,22,male,Son,Not Married,No Employment,neither
-Wilson,Rebecca,42,Killead,22,female,Daughter,Married,Knitter or sewer,read and write
-Millar,Robert,47,Killead,22,male,Head Of Family,Not Married,Farmer,read and write
-Galway,Eliza,53,Killead,22,female,Sister,Not Married,Flowerer/Gardener,read only
-Christy,Eliza,55,Killead,22,female,Daughter,Not Married,House Keeper,read and write
-Nichol,Arthur,7,Killead,22,male,Son,Not Married,Farmer,read and write
-McConkey,James,4,Killead,22,male,Son,Not Married,Farmer,read and write
-Rankin,Nancy,13,Killead,22,female,Wife,Married,Knitter or sewer,read only
-Kirkpatrick,Henry,19,Killead,22,male,Son,Not Married,Stone Mason,read and write
-Ainsworth,Reaphel,31,Killead,22,female,Wife,Married,Flowerer/Gardener,read and write
-Ward,Mary,38,Killead,22,female,Daughter,Not Married,Knitter or sewer,read and write
-Goldon,Margaret,45,Killead,22,female,Lodger,Not Married,servant,neither
-Megran,Eliza,50,Killead,22,female,Daughter,Married,Flowerer/Gardener,read only
-Moffat,Robt,68,Killead,22,male,Visitor,Not Married,Labourer,read and write
+Young,John,3,Killead,22,Male,Servant,Not Married,Labourer,read and write
+Armstrong,Wm John,5,Killead,22,Male,Head Of Family,Not Married,Labourer,read and write
+Thompson,Sarah,10,Killead,22,Female,Wife,Married,Spinster,read and write
+Brown,Eliza,17,Killead,22,Female,Daughter,Not Married,Spinster,read and write
+Young,Arthur,20,Killead,22,Male,Head Of Family,Not Married,Farmer,read and write
+Wallace,David,22,Killead,22,Male,Son,Not Married,Ploughman,read and write
+Mairs,Sarah Jane,3,Killead,22,Female,Sister,Not Married,Flowerer/Gardener,read only
+Rea,Nancy Jane,4,Killead,22,Female,Daughter,Not Married,Embroiderer/Tambourer,read and write
+Gourley,Ann Isabella,8,Killead,22,Female,other,Not Married,Dress Maker,read only
+Higgins,Mabella,1,Killead,22,Female,Daughter,Not Married,Knitter or sewer,read and write
+Gibbins,William,25,Killead,22,Male,Son,Not Married,Labourer,neither
+Mullen,John,32,Killead,22,Male,Son,Not Married,No Employment,neither
+Wilson,Rebecca,42,Killead,22,Female,Daughter,Married,Knitter or sewer,read and write
+Millar,Robert,47,Killead,22,Male,Head Of Family,Not Married,Farmer,read and write
+Galway,Eliza,53,Killead,22,Female,Sister,Not Married,Flowerer/Gardener,read only
+Christy,Eliza,55,Killead,22,Female,Daughter,Not Married,House Keeper,read and write
+Nichol,Arthur,7,Killead,22,Male,Son,Not Married,Farmer,read and write
+McConkey,James,4,Killead,22,Male,Son,Not Married,Farmer,read and write
+Rankin,Nancy,13,Killead,22,Female,Wife,Married,Knitter or sewer,read only
+Kirkpatrick,Henry,19,Killead,22,Male,Son,Not Married,Stone Mason,read and write
+Ainsworth,Reaphel,31,Killead,22,Female,Wife,Married,Flowerer/Gardener,read and write
+Ward,Mary,38,Killead,22,Female,Daughter,Not Married,Knitter or sewer,read and write
+Goldon,Margaret,45,Killead,22,Female,Lodger,Not Married,servant,neither
+Megran,Eliza,50,Killead,22,Female,Daughter,Married,Flowerer/Gardener,read only
+Moffat,Robt,68,Killead,22,Male,Visitor,Not Married,Labourer,read and write
 Porter,James,9,Killead,22,Male,Son,Married,Shop Keeper,read and write
 White,Ellen,15,Killead,22,Female,Daughter,Not Married,student,read and write
 Lorimer,Hugh,15,Killead,22,Male,Servant,Not Married,Labourer,read and write
@@ -6057,66 +6057,66 @@ Montgomery,James,239,Craigs,22,Male,Head Of Family,Married,Carpenter,read and wr
 McIlroy,Joseph,247,Craigs,22,Male,Son,Not Married,No Employment,read and write
 McIlroy,Joseph,247,Craigs,22,Male,Son,Not Married,No Employment,read and write
 Weir,Alxr,266,Craigs,22,Male,Head Of Family,Married,Linen Weaver,read and write
-Mcloughlan,John,11,Ballymoney,22,male,Son,Not Married,Farmer,read and write
-Johnson,Nancy,30,Ballymoney,22,female,Daughter,Not Married,Knitter or sewer,read only
-Knox,Hugh,31,Ballymoney,22,male,Servant,Not Married,Farmer,read only
-Johnson,Henry,35,Ballymoney,22,male,Head Of Family,Married,Linen Weaver,read only
-Cassidy,Martha,37,Ballymoney,22,female,Wife,Married,No Employment,read only
-Atkinson,Mary,39,Ballymoney,22,female,Wife,Married,House Keeper,read and write
-Atkinson,William,39,Ballymoney,22,male,Nephew,Not Married,Linen Weaver,read only
-Atkinson,Elizabeth,40,Ballymoney,22,female,Daughter,Not Married,Knitter or sewer,read only
-McClatchie,John,58,Ballymoney,22,male,other,Married,Linen Weaver,read and write
-McClatchie,Mary,58,Ballymoney,22,female,Daughter,Married,No Employment,read and write
-Dillon,John,59,Ballymoney,22,male,Son,Not Married,Farmer,read and write
-Mountgomery,Rosey,1,Dunaghy,22,female,Servant,Not Married,Linen Weaver,read and write
-Linton,William,10,Dunaghy,22,male,Servant,Not Married,Ploughman,read and write
-Allan,Jean,10,Dunaghy,22,female,Servant,Not Married,Linen Weaver,read only
-Gaston,John,39,Dunaghy,22,male,Son,Not Married,Farmer,read and write
-Ellot,Mary,45,Dunaghy,22,female,Wife,Married,House Keeper,read and write
-Shannon,Aberiham,54,Dunaghy,22,male,Servant,Not Married,Linen Weaver,read only
-Cubit,Wm,6,Dunaghy,22,male,Son,Not Married,Linen Weaver,read and write
-Gillin,Mary,10,Dunaghy,22,female,Daughter,Not Married,No Employment,read only
-Dawson,William,12,Dunaghy,22,male,Nephew,Not Married,Visitor,read and write
-Johnston,Robert,15,Dunaghy,22,male,Head Of Family,Married,Linen Weaver,read and write
-Kennedy,Mary Ann,17,Dunaghy,22,female,Wife,Married,Winner,neither
-McNim,Ann,24,Dunaghy,22,female,Daughter,Not Married,Linen Weaver,read only
-McNim,Jiny,24,Dunaghy,22,female,Daughter,Not Married,Linen Weaver,read only
-Bleary,Jane,24,Dunaghy,22,female,Servant,Married,Linen Weaver,read only
-Speers,Hannah,28,Dunaghy,22,female,Daughter,Not Married,House Keeper,read and write
-Dauds,Jos,45,Dunaghy,22,male,Servant,Not Married,Linen Weaver,neither
-Scullion,Mary,6,Dunaghay,22,female,Daughter,Not Married,Linen Weaver,read and write
-Redmond,Peter,2,Dunaghy,22,male,Son,Not Married,Labourer,read only
-Finlay,Sarah,3,Dunaghy,22,female,Servant,Not Married,Linen Weaver,read only
-McClain,Mary,4,Dunaghy,22,female,Servant,Not Married,Linen Weaver,read only
-Mark,Wm,11,Dunaghy,22,male,Servant,Not Married,No Employment,read only
-Potter,Nancy,8,Dunaghy,22,female,Daughter,Not Married,No Employment,read only
-Knowles,Jane,12,Dunaghy,22,female,Wife,Married,,read and write
-McCormick,Andrew,1,Dunaghy,22,male,Brother,Not Married,Ploughman,read and write
-McKeever,Cathn,2,Dunaghy,22,female,Sister,Not Married,Embroiderer/Tambourer,read and write
-Donnelly,Susan,5,Dunaghy,22,female,Daughter,Not Married,Linen Weaver,read and write
-O'Boyle,Patrick,8,Dunaghy,22,male,Head Of Family,Married,Farmer,read and write
-Kerr,Biddy,10,Dunaghy,22,female,Daughter,Not Married,No Employment,read and write
-Darragh,Mary,12,Dunaghy,22,female,Daughter,Married,Winder,read only
-Henry,Mary,3,Dunaghy,22,female,Servant,Not Married,servant,read only
-Vuim,Michal,6,Dunaghy,22,male,other,Not Married,Shoe Maker,read only
-Watson,Ann,12,Dunaghy,22,female,Daughter,Married,Linen Weaver,read only
-Bradshaw,Andrew,5,Dunaghy,22,male,Son,Not Married,Ploughman,read and write
-McKendry,Molly,8,Dunaghy,22,female,Daughter,Not Married,Linen Weaver,read only
-Carey,Patrick,15,Dunaghy,22,male,Head Of Family,Married,Linen Weaver,read and write
-McAteer,John,4,Dunaghy,22,male,Son,Not Married,Linen Weaver,read only
-Wiles,Ellen,11,Dunaghy,22,female,Daughter,Not Married,House Keeper,read and write
-McCroy,James,15,Dunaghy,22,male,Head Of Family,Married,Linen Weaver,read only
-McCroy,Martha,15,Dunaghy,22,female,Wife,Married,Linen Weaver,read only
-Catterson,James,1,Dunaghy,22,male,Servant,Not Married,Linen Weaver,read only
-O'Loan,Mary,7,Dunaghy,22,female,Wife,Married,Linen Weaver,read and write
-Higgins,Mary,8,Dunaghy,22,female,Daughter,Not Married,Linen Weaver,read only
-Oraw,Felix,13,Dunaghy,22,male,Head Of Family,Married,Linen Weaver,read only
-McAlister,Cathn,1,Dunaghy,22,female,Daughter,Not Married,No Employment,read only
-McCann,Susan,3,Dunaghy,22,female,Daughter,Not Married,Linen Weaver,neither
-Curry,Sarah,2,Dunaghy,22,female,Sister,Not Married,Linen Weaver,read only
-Knowls,John,3,Dunaghy,22,male,Nephew,Not Married,Linen Weaver,read and write
-Hutchinson,Eliza,7,Dunaghy,22,female,other,Married,Linen Weaver,read only
-Lowry,Hamilton,1,Dunaghy,22,male,other,Not Married,Teacher/Principal,read and write
+Mcloughlan,John,11,Ballymoney,22,Male,Son,Not Married,Farmer,read and write
+Johnson,Nancy,30,Ballymoney,22,Female,Daughter,Not Married,Knitter or sewer,read only
+Knox,Hugh,31,Ballymoney,22,Male,Servant,Not Married,Farmer,read only
+Johnson,Henry,35,Ballymoney,22,Male,Head Of Family,Married,Linen Weaver,read only
+Cassidy,Martha,37,Ballymoney,22,Female,Wife,Married,No Employment,read only
+Atkinson,Mary,39,Ballymoney,22,Female,Wife,Married,House Keeper,read and write
+Atkinson,William,39,Ballymoney,22,Male,Nephew,Not Married,Linen Weaver,read only
+Atkinson,Elizabeth,40,Ballymoney,22,Female,Daughter,Not Married,Knitter or sewer,read only
+McClatchie,John,58,Ballymoney,22,Male,other,Married,Linen Weaver,read and write
+McClatchie,Mary,58,Ballymoney,22,Female,Daughter,Married,No Employment,read and write
+Dillon,John,59,Ballymoney,22,Male,Son,Not Married,Farmer,read and write
+Mountgomery,Rosey,1,Dunaghy,22,Female,Servant,Not Married,Linen Weaver,read and write
+Linton,William,10,Dunaghy,22,Male,Servant,Not Married,Ploughman,read and write
+Allan,Jean,10,Dunaghy,22,Female,Servant,Not Married,Linen Weaver,read only
+Gaston,John,39,Dunaghy,22,Male,Son,Not Married,Farmer,read and write
+Ellot,Mary,45,Dunaghy,22,Female,Wife,Married,House Keeper,read and write
+Shannon,Aberiham,54,Dunaghy,22,Male,Servant,Not Married,Linen Weaver,read only
+Cubit,Wm,6,Dunaghy,22,Male,Son,Not Married,Linen Weaver,read and write
+Gillin,Mary,10,Dunaghy,22,Female,Daughter,Not Married,No Employment,read only
+Dawson,William,12,Dunaghy,22,Male,Nephew,Not Married,Visitor,read and write
+Johnston,Robert,15,Dunaghy,22,Male,Head Of Family,Married,Linen Weaver,read and write
+Kennedy,Mary Ann,17,Dunaghy,22,Female,Wife,Married,Winner,neither
+McNim,Ann,24,Dunaghy,22,Female,Daughter,Not Married,Linen Weaver,read only
+McNim,Jiny,24,Dunaghy,22,Female,Daughter,Not Married,Linen Weaver,read only
+Bleary,Jane,24,Dunaghy,22,Female,Servant,Married,Linen Weaver,read only
+Speers,Hannah,28,Dunaghy,22,Female,Daughter,Not Married,House Keeper,read and write
+Dauds,Jos,45,Dunaghy,22,Male,Servant,Not Married,Linen Weaver,neither
+Scullion,Mary,6,Dunaghay,22,Female,Daughter,Not Married,Linen Weaver,read and write
+Redmond,Peter,2,Dunaghy,22,Male,Son,Not Married,Labourer,read only
+Finlay,Sarah,3,Dunaghy,22,Female,Servant,Not Married,Linen Weaver,read only
+McClain,Mary,4,Dunaghy,22,Female,Servant,Not Married,Linen Weaver,read only
+Mark,Wm,11,Dunaghy,22,Male,Servant,Not Married,No Employment,read only
+Potter,Nancy,8,Dunaghy,22,Female,Daughter,Not Married,No Employment,read only
+Knowles,Jane,12,Dunaghy,22,Female,Wife,Married,,read and write
+McCormick,Andrew,1,Dunaghy,22,Male,Brother,Not Married,Ploughman,read and write
+McKeever,Cathn,2,Dunaghy,22,Female,Sister,Not Married,Embroiderer/Tambourer,read and write
+Donnelly,Susan,5,Dunaghy,22,Female,Daughter,Not Married,Linen Weaver,read and write
+O'Boyle,Patrick,8,Dunaghy,22,Male,Head Of Family,Married,Farmer,read and write
+Kerr,Biddy,10,Dunaghy,22,Female,Daughter,Not Married,No Employment,read and write
+Darragh,Mary,12,Dunaghy,22,Female,Daughter,Married,Winder,read only
+Henry,Mary,3,Dunaghy,22,Female,Servant,Not Married,servant,read only
+Vuim,Michal,6,Dunaghy,22,Male,other,Not Married,Shoe Maker,read only
+Watson,Ann,12,Dunaghy,22,Female,Daughter,Married,Linen Weaver,read only
+Bradshaw,Andrew,5,Dunaghy,22,Male,Son,Not Married,Ploughman,read and write
+McKendry,Molly,8,Dunaghy,22,Female,Daughter,Not Married,Linen Weaver,read only
+Carey,Patrick,15,Dunaghy,22,Male,Head Of Family,Married,Linen Weaver,read and write
+McAteer,John,4,Dunaghy,22,Male,Son,Not Married,Linen Weaver,read only
+Wiles,Ellen,11,Dunaghy,22,Female,Daughter,Not Married,House Keeper,read and write
+McCroy,James,15,Dunaghy,22,Male,Head Of Family,Married,Linen Weaver,read only
+McCroy,Martha,15,Dunaghy,22,Female,Wife,Married,Linen Weaver,read only
+Catterson,James,1,Dunaghy,22,Male,Servant,Not Married,Linen Weaver,read only
+O'Loan,Mary,7,Dunaghy,22,Female,Wife,Married,Linen Weaver,read and write
+Higgins,Mary,8,Dunaghy,22,Female,Daughter,Not Married,Linen Weaver,read only
+Oraw,Felix,13,Dunaghy,22,Male,Head Of Family,Married,Linen Weaver,read only
+McAlister,Cathn,1,Dunaghy,22,Female,Daughter,Not Married,No Employment,read only
+McCann,Susan,3,Dunaghy,22,Female,Daughter,Not Married,Linen Weaver,neither
+Curry,Sarah,2,Dunaghy,22,Female,Sister,Not Married,Linen Weaver,read only
+Knowls,John,3,Dunaghy,22,Male,Nephew,Not Married,Linen Weaver,read and write
+Hutchinson,Eliza,7,Dunaghy,22,Female,other,Married,Linen Weaver,read only
+Lowry,Hamilton,1,Dunaghy,22,Male,other,Not Married,Teacher/Principal,read and write
 Gordon,John,6,Dunaghy,22,Male,Head Of Family,Married,Farmer,read and write
 Craig,Rose,8,Dunaghy,22,Female,Wife,Married,Linen Weaver,read and write
 Craig,Hugh,9,Dunaghy,22,Male,Son,Not Married,Linen Weaver,read and write
@@ -6270,7 +6270,7 @@ Hamelton,,78,Aghagallon,22,Female,Daughter,Married,Linen Weaver,neither
 Young,Elizabeth,86,Aghagallon,22,Female,Wife,Married,Winner,neither
 Young,John,92,Aghagallon,22,Male,Son,Not Married,Weaver,read and write
 Montgomery,John,93,Aghagallon,22,Male,Son,Not Married,Weaver,read and write
-Crawford,Ellen,7,Aghagallon,22,female,other,Married,No Employment,read only
+Crawford,Ellen,7,Aghagallon,22,Female,other,Married,No Employment,read only
 Loughan,Joseph,10,Aghagallon,22,Male,Son,Not Married,Weaver,neither
 O'Neil,Susan,30,Aghagallon,22,Female,Daughter,Married,Linen Weaver,neither
 Oneil,,8,Aghagallon,22,Female,Sister,Not Married,No Employment,read only
@@ -6482,8 +6482,8 @@ Herbison,Jane,232,Craigs,19,Female,Daughter,Not Married,No Employment,read only
 Higgins,Eliza,233,Craigs,19,Female,Wife,Married,House Keeper,read only
 Higgins,Sarah,233,Craigs,19,Female,Head Of Family,Married,Cook,neither
 Stirling,Mary,244,Craigs,19,Female,Daughter,Not Married,Linen Weaver,read and write
-McIlroy,Ellen,247,Craigs,19,female,Daughter,Not Married,No Employment,read and write
-Linn,Jane,259,Craigs,19,female,Daughter,Not Married,Weaver,read and write
+McIlroy,Ellen,247,Craigs,19,Female,Daughter,Not Married,No Employment,read and write
+Linn,Jane,259,Craigs,19,Female,Daughter,Not Married,Weaver,read and write
 Talley,Charles,262,Craigs,19,Male,Son,Not Married,Bleacher,read and write
 Ross,Sarah,265,Craigs,19,Female,Wife,Not Married,,read and write
 McNight,Joseph,4,Ballinderry,19,Male,Servant,Not Married,Weaver,read and write
@@ -6730,25 +6730,25 @@ Manderson,Sarah,3,Killead,19,Female,Sister,Not Married,,read and write
 Cabery,Edwd,3,Killead,19,Male,Servant,Not Married,Labourer,read only
 McCluney,Rose,3,Killead,19,Female,Servant,Not Married,servant,read only
 Gilpin,John,8,Killead,19,Male,Son,Not Married,Labourer,read and write
-Crawford,Violet,2,Killead,19,female,Daughter,Not Married,No Employment,read and write
-Algie,Martha,7,Killead,19,female,Daughter,Married,No Employment,read and write
-Henderson,Hugh,7,Killead,19,male,Servant,Not Married,Ploughman,read and write
-Crawford,Mary Ann,10,Killead,19,female,Daughter,Not Married,Flowerer/Gardener,read and write
-Adams,James,25,Killead,19,male,Son,Not Married,cotton workers,read and write
-Hope,William J,2,Killead,19,male,other,Married,Weaver,read and write
-Alexander,Catherine,14,Killead,19,female,Wife,Married,Spinster,read and write
-McConnell,Isabella,10,Killead,19,female,Sister,Not Married,House Keeper,read and write
-Hanna,Sarah,14,Killead,19,female,Daughter,Not Married,Knitter or sewer,read and write
-McKeown,Margt,24,Killead,19,female,Daughter,Not Married,Seamstress,neither
-Galway,Peter,53,Killead,19,male,Brother,Not Married,Labourer,read and write
-Laughlin,Patrick M G,55,Killead,19,male,Servant,Not Married,Labourer,read only
-McCew,William,60,Killead,19,male,Servant,Not Married,Ploughman,read and write
-Megran,Eleanor,50,Killead,19,female,Daughter,Not Married,Flowerer/Gardener,neither
-O'Donnel,Jane,54,Killead,19,female,Daughter,Not Married,House Keeper,read and write
-Simson,Jane,100,Killead,19,female,Servant,Not Married,servant,read only
-Kelley,Peter,100,Killead,19,male,Servant,Not Married,Labourer,read only
-McClane,Daniel,103,Killead,19,male,Servant,Not Married,Farmer,read only
-Morrow,Sarah,105,Killead,19,female,Daughter,Not Married,Dress Maker,read and write
+Crawford,Violet,2,Killead,19,Female,Daughter,Not Married,No Employment,read and write
+Algie,Martha,7,Killead,19,Female,Daughter,Married,No Employment,read and write
+Henderson,Hugh,7,Killead,19,Male,Servant,Not Married,Ploughman,read and write
+Crawford,Mary Ann,10,Killead,19,Female,Daughter,Not Married,Flowerer/Gardener,read and write
+Adams,James,25,Killead,19,Male,Son,Not Married,cotton workers,read and write
+Hope,William J,2,Killead,19,Male,other,Married,Weaver,read and write
+Alexander,Catherine,14,Killead,19,Female,Wife,Married,Spinster,read and write
+McConnell,Isabella,10,Killead,19,Female,Sister,Not Married,House Keeper,read and write
+Hanna,Sarah,14,Killead,19,Female,Daughter,Not Married,Knitter or sewer,read and write
+McKeown,Margt,24,Killead,19,Female,Daughter,Not Married,Seamstress,neither
+Galway,Peter,53,Killead,19,Male,Brother,Not Married,Labourer,read and write
+Laughlin,Patrick M G,55,Killead,19,Male,Servant,Not Married,Labourer,read only
+McCew,William,60,Killead,19,Male,Servant,Not Married,Ploughman,read and write
+Megran,Eleanor,50,Killead,19,Female,Daughter,Not Married,Flowerer/Gardener,neither
+O'Donnel,Jane,54,Killead,19,Female,Daughter,Not Married,House Keeper,read and write
+Simson,Jane,100,Killead,19,Female,Servant,Not Married,servant,read only
+Kelley,Peter,100,Killead,19,Male,Servant,Not Married,Labourer,read only
+McClane,Daniel,103,Killead,19,Male,Servant,Not Married,Farmer,read only
+Morrow,Sarah,105,Killead,19,Female,Daughter,Not Married,Dress Maker,read and write
 Cooke,Mary,4,Killead,19,Female,Daughter,Not Married,Flowerer/Gardener,read and write
 Doyle,Eleanor,5,Killead,19,Female,Daughter,Not Married,Flowerer/Gardener,read and write
 Porter,Jane,8,Killead,19,Female,Wife,Married,Flowerer/Gardener,read and write
@@ -7035,50 +7035,50 @@ McIlroy,Ellen,247,Craigs,19,Female,Daughter,Not Married,No Employment,read and w
 Linn,Jane,259,Craigs,19,Female,Daughter,Not Married,Weaver,read and write
 Talley,Charles,262,Craigs,19,Male,Son,Not Married,Bleacher,read and write
 Ross,Sarah,265,Craigs,19,Female,Wife,Not Married,,read and write
-Kennedy,Jane,17,Ballymoney,19,female,Daughter,Not Married,House Keeper,read and write
-McCrackin,Ann,43,Ballymoney,19,female,Daughter,Not Married,Weaver,read and write
-Cassidy,Eliza,45,Ballymoney,19,female,Sister,Not Married,No Employment,read and write
+Kennedy,Jane,17,Ballymoney,19,Female,Daughter,Not Married,House Keeper,read and write
+McCrackin,Ann,43,Ballymoney,19,Female,Daughter,Not Married,Weaver,read and write
+Cassidy,Eliza,45,Ballymoney,19,Female,Sister,Not Married,No Employment,read and write
 McCew,William,60,Killead,19,Male,Servant,Not Married,Ploughman,read and write
-Hollidy,Eliza,57,Ballymoney,19,female,Daughter,Married,No Employment,read and write
-Hollidy,Robert,57,Ballymoney,19,male,Nephew,Not Married,Labourer,read and write
-Carmichael,William,58,Ballymoney,19,male,Son,Not Married,Farmer,read and write
-Cupples,John,6,Dunaghy,19,male,Son,Not Married,,read and write
-Alexander,Matty,7,Dunaghy,19,female,Daughter,Married,No Employment,read only
-McCausland,Bridget,5,Dunaghy,19,female,Daughter,Not Married,Linen Weaver,neither
-McMullan,Jane,21,Denaughy,19,female,Daughter,Not Married,Linen Weaver,read only
-Millar,L A,25,Dunaghy,19,female,Daughter,Not Married,Linen Weaver,read only
-Crawford,Marget,42,Dunaghy,19,female,Daughter,Not Married,House Keeper,read and write
-Thomas,John,42,Dunaghy,19,male,Servant,Not Married,Linen Weaver,read only
-Smyly,Eliza A,52,Dunaghy,19,female,Daughter,Not Married,Linen Weaver,read and write
-Shannon,Robert,54,Dunaghy,19,male,Servant,Not Married,Linen Weaver,read only
-Duncan,John,3,Dunaghy,19,male,Son,Not Married,Linen Weaver,read and write
-Mark,Martha,7,Dunaghy,19,female,Daughter,Not Married,House Keeper,read and write
-Whiteside,Robert,13,Dunaghy,19,male,Servant,Not Married,Linen Weaver,read only
-Connell,John,18,Dunaghy,19,male,Servant,Not Married,Linen Weaver,read and write
-Wilson,Mary,20,Dunaghy,19,female,Wife,Married,Linen Weaver,neither
-Straghan,Robert,33,Dunaghy,19,male,Son,Not Married,Farmer,read and write
-Smith,John,38,Dunaghy,19,male,Son,Not Married,Linen Weaver,read and write
-Dunlop,A Jane,45,Dunaghy,19,female,Servant,Not Married,Linen Weaver,read only
-Armstrong,James,46,Dunaghy,19,male,Head Of Family,Married,Linen Weaver,neither
-Duffin,Catherine,5,Dunaghy,19,female,Niece,Not Married,No Employment,read only
-McKart,Charles,2,Dunaghay,19,male,Brother,Not Married,Linen Weaver,neither
-Black,Jane,5,Dunaghy,19,female,Servant,Not Married,Linen Weaver,read only
-Daugtherty,Cathn,9,Dunaghy,19,female,Daughter,Not Married,Linen Weaver,neither
-Carey,Danl,10,Dunaghy,19,male,Servant,Not Married,Linen Weaver,neither
-Gillen,Mary,5,Dunaghy,19,female,Servant,Not Married,House Keeper,read only
-Lamont,Eliza,8,Dunaghy,19,female,Daughter,Not Married,Linen Weaver,read only
-Longwright,Faranaes,22,Dunaghy,19,male,Son,Not Married,Linen Weaver,read only
-Oraw,James,6,Dunaghy,19,male,Servant,Not Married,Ploughman,read only
-Donaghy,Mary,12,Dunaghy,19,female,Servant,Not Married,servant,neither
-Beattie,Duffin,12,Dunaghy,19,male,Servant,Not Married,Linen Weaver,read and write
-Carey,Barnard,13,Dunaghy,19,male,Son,Not Married,Linen Weaver,read and write
-Petrie,Isabella,1,Dunaghy,19,female,Daughter,Not Married,Linen Weaver,read and write
-Johnston,William,2,Dunaghy,19,male,Son,Not Married,Linen Weaver,read only
-Wiles,Sarah,11,Dunaghy,19,female,Daughter,Not Married,House Keeper,read and write
-Smyth,Wm John,12,Dunaghy,19,male,Servant,Not Married,Master,read only
-McElhayart,Easter,15,Dunaghy,19,female,Visitor,Not Married,Linen Weaver,read and write
-Reid,Eliza,2,Dunaghy,19,female,Servant,Not Married,Linen Weaver,read only
-Aiken,Jane,1,Dunaghy,19,female,Servant,Not Married,servant,read only
+Hollidy,Eliza,57,Ballymoney,19,Female,Daughter,Married,No Employment,read and write
+Hollidy,Robert,57,Ballymoney,19,Male,Nephew,Not Married,Labourer,read and write
+Carmichael,William,58,Ballymoney,19,Male,Son,Not Married,Farmer,read and write
+Cupples,John,6,Dunaghy,19,Male,Son,Not Married,,read and write
+Alexander,Matty,7,Dunaghy,19,Female,Daughter,Married,No Employment,read only
+McCausland,Bridget,5,Dunaghy,19,Female,Daughter,Not Married,Linen Weaver,neither
+McMullan,Jane,21,Denaughy,19,Female,Daughter,Not Married,Linen Weaver,read only
+Millar,L A,25,Dunaghy,19,Female,Daughter,Not Married,Linen Weaver,read only
+Crawford,Marget,42,Dunaghy,19,Female,Daughter,Not Married,House Keeper,read and write
+Thomas,John,42,Dunaghy,19,Male,Servant,Not Married,Linen Weaver,read only
+Smyly,Eliza A,52,Dunaghy,19,Female,Daughter,Not Married,Linen Weaver,read and write
+Shannon,Robert,54,Dunaghy,19,Male,Servant,Not Married,Linen Weaver,read only
+Duncan,John,3,Dunaghy,19,Male,Son,Not Married,Linen Weaver,read and write
+Mark,Martha,7,Dunaghy,19,Female,Daughter,Not Married,House Keeper,read and write
+Whiteside,Robert,13,Dunaghy,19,Male,Servant,Not Married,Linen Weaver,read only
+Connell,John,18,Dunaghy,19,Male,Servant,Not Married,Linen Weaver,read and write
+Wilson,Mary,20,Dunaghy,19,Female,Wife,Married,Linen Weaver,neither
+Straghan,Robert,33,Dunaghy,19,Male,Son,Not Married,Farmer,read and write
+Smith,John,38,Dunaghy,19,Male,Son,Not Married,Linen Weaver,read and write
+Dunlop,A Jane,45,Dunaghy,19,Female,Servant,Not Married,Linen Weaver,read only
+Armstrong,James,46,Dunaghy,19,Male,Head Of Family,Married,Linen Weaver,neither
+Duffin,Catherine,5,Dunaghy,19,Female,Niece,Not Married,No Employment,read only
+McKart,Charles,2,Dunaghay,19,Male,Brother,Not Married,Linen Weaver,neither
+Black,Jane,5,Dunaghy,19,Female,Servant,Not Married,Linen Weaver,read only
+Daugtherty,Cathn,9,Dunaghy,19,Female,Daughter,Not Married,Linen Weaver,neither
+Carey,Danl,10,Dunaghy,19,Male,Servant,Not Married,Linen Weaver,neither
+Gillen,Mary,5,Dunaghy,19,Female,Servant,Not Married,House Keeper,read only
+Lamont,Eliza,8,Dunaghy,19,Female,Daughter,Not Married,Linen Weaver,read only
+Longwright,Faranaes,22,Dunaghy,19,Male,Son,Not Married,Linen Weaver,read only
+Oraw,James,6,Dunaghy,19,Male,Servant,Not Married,Ploughman,read only
+Donaghy,Mary,12,Dunaghy,19,Female,Servant,Not Married,servant,neither
+Beattie,Duffin,12,Dunaghy,19,Male,Servant,Not Married,Linen Weaver,read and write
+Carey,Barnard,13,Dunaghy,19,Male,Son,Not Married,Linen Weaver,read and write
+Petrie,Isabella,1,Dunaghy,19,Female,Daughter,Not Married,Linen Weaver,read and write
+Johnston,William,2,Dunaghy,19,Male,Son,Not Married,Linen Weaver,read only
+Wiles,Sarah,11,Dunaghy,19,Female,Daughter,Not Married,House Keeper,read and write
+Smyth,Wm John,12,Dunaghy,19,Male,Servant,Not Married,Master,read only
+McElhayart,Easter,15,Dunaghy,19,Female,Visitor,Not Married,Linen Weaver,read and write
+Reid,Eliza,2,Dunaghy,19,Female,Servant,Not Married,Linen Weaver,read only
+Aiken,Jane,1,Dunaghy,19,Female,Servant,Not Married,servant,read only
 Hamill,Catherine,22,Dunaghy,19,Female,Daughter,Not Married,Linen Weaver,read and write
 McIntire,Maryan,25,Dunaghy,19,Female,Daughter,Not Married,Linen Weaver,read and write
 McNullen,Ann,2,Dunaghy,19,Female,Wife,Married,Linen Weaver,neither
@@ -7150,7 +7150,7 @@ Kelly,Patrick,4,Killead,19,Male,Son,Not Married,Farmer,read and write
 Henning,Jane,18,Killead,19,Female,Niece,Not Married,Farmer,read only
 Sutherland,Martha,11,Killead,19,Female,Daughter,Not Married,Embroiderer/Tambourer,read and write
 Milliken,Sarah,13,Killead,19,Female,Daughter,Not Married,Farmer,read and write
-Sutherland,James,14,Killead,19,male,Son,Not Married,Weaver,read only
+Sutherland,James,14,Killead,19,Male,Son,Not Married,Weaver,read only
 McLorinon,Ann,16,Killead,19,Female,Head Of Family,Not Married,Embroiderer/Tambourer,neither
 Alexander,Catherine,14,Killead,19,Female,Wife,Married,Spinster,read and write
 Crawford,Violet,2,Killead,19,Female,Daughter,Not Married,No Employment,read and write

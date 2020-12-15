@@ -11,17 +11,12 @@ from logistic_regression_model import *
 from knn import *
 from sklearn.metrics import accuracy_score, average_precision_score
 
-def produce_input_feature(list_of_inputs):
-
-    #create a single list containing all words used as inputs
-    all_fields = []
-    for input in list_of_inputs:
-        all_fields.extend(input.astype('U'))
-
+def produce_input_feature(list_of_inputs, uniqueValues):
+    
     #tokenise each of the input fields
     vectorizer = CountVectorizer()
-    vectorizer.fit(all_fields)
-
+    vectorizer.fit(uniqueValues)
+       
     people = []
     for i in range(0, len(list_of_inputs[0])):
         person = []
@@ -39,13 +34,18 @@ def produce_input_feature(list_of_inputs):
         X.append(input[0])
 
     X = np.array(X)
+    print("len(uniqueValues) =", len(uniqueValues))
+    print("AFTER len(vectorizer.get_feature_names()) =", len(vectorizer.get_feature_names()))
     print("shape of X", X.shape)
 
     return X
 
 def printUniqueClassess(classesData, classesNames):
-    for i in range(0, len(classesData) - 1):
+    uniqueValues = []
+    for i in range(0, len(classesData)):
         print("Number of unique", classesNames[i], "values =", len(list(set(classesData[i]))))
+        uniqueValues.extend(set(classesData[i]))
+    return uniqueValues
 
 def generalisingSmallClasses(className, newValue, threshold):
     uniqueValues = list(set(className))
@@ -67,13 +67,32 @@ marital_status = df.iloc[:,7]
 occupation = df.iloc[:,8]
 education = df.iloc[:,9] #this is what we are trying to classify
 
-array_of_all_data = [surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
-#printUniqueClassess(array_of_all_data, ["surname", "forename", "family_ID", "parish", "age", "sex", "relation_to_head_of_household", "marital_status", "occupation"])
-
-#print("unique", len(list(set(surname))))
-
 occupation = generalisingSmallClasses(occupation, "other", 50)
+
+array_of_all_data = [surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
+
+printUniqueClassess(array_of_all_data, ["surname", "forename", "family_ID", "parish", "age", "sex", "relation_to_head_of_household", "marital_status", "occupation"])
+
+
+for i in range(0, len(surname)):
+    surname[i] = "surname" + str(surname[i]).lower() + "surname"
+    forename[i] = "forename" + str(forename[i]).lower() + "forename"
+    family_ID[i] = "family_ID" + str(family_ID[i]) + "family_ID"
+    parish[i] = "parish" + str(parish[i]).lower() + "parish"
+    age[i] = "age" +  str(age[i]) + "age"
+    sex[i] = "sex" + str(sex[i]).lower() + "sex"
+    relation_to_head_of_household[i] = "relation" + str(relation_to_head_of_household[i]).lower() + "relation"
+    marital_status[i] = "martial" + str(marital_status[i]).lower() + "martial"
+    occupation[i] = "occupation" + str(occupation[i]).lower() + "occupation"
+    education[i] = str(education[i]).lower()
+
+
+
+
+array_of_all_data = [surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
 #surname = generalisingSmallClasses(surname, "other", 4)
+uniqueValues = printUniqueClassess(array_of_all_data, ["surname", "forename", "family_ID", "parish", "age", "sex", "relation_to_head_of_household", "marital_status", "occupation"])
+
 
 #make education contain only 4 possible numbers - 1 for read and write, 2 for read only, 3 for neither, and 4 for undefined
 number_of_each_Class = [0,0,0,0]
@@ -97,7 +116,7 @@ labels = np.array(labels)
 print("labels", len(labels))
 
 #generate feature vector (pass in a array for each of the raw data columns (should all be the same length))
-X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation])
+X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation], uniqueValues)
 
 
 # test model
@@ -107,24 +126,24 @@ indices = np.arange(len(labels))
 training_data, test_data = train_test_split(indices, test_size=0.2)
 
 print("---------------------------------------baseline models ----------------------------------------")
-randomBaselineClassifier(labels)
-modeBaselineClassifier(labels)
+#randomBaselineClassifier(labels)
+#modeBaselineClassifier(labels)
 
 print("-------------------------------------- Linear SVM -----------------------------------------------------")
-linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
-optimsedLinearSVMClassifier(X[training_data], labels[training_data], X[test_data], labels[test_data])
+#linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
+#optimsedLinearSVMClassifier(X[training_data], labels[training_data], X[test_data], labels[test_data])
 
 print("-------------------------------------- Logistic Regression --------------------------------------------")
-logistic_regression_model_cross_validation(X[training_data], labels[training_data])
-train_chosen_logistic_regression_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
+#logistic_regression_model_cross_validation(X[training_data], labels[training_data])
+#train_chosen_logistic_regression_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
 print("-------------------------------------- Kernal SVM -----------------------------------------------------")
-kernel_SVM_model_cross_validation(X[training_data], labels[training_data])
-train_chosen_kernel_SVM_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
+#kernel_SVM_model_cross_validation(X[training_data], labels[training_data])
+#train_chosen_kernel_SVM_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
 print("-------------------------------------- KNN ------------------------------------------------------------")
-knn_model_cross_validation(X[training_data], labels[training_data])
-train_chosen_knn_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
+#knn_model_cross_validation(X[training_data], labels[training_data])
+#train_chosen_knn_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
 
 # ------------------------------------------- NOTES ---------------------------------------------------------------

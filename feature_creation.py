@@ -69,11 +69,6 @@ education = df.iloc[:,9] #this is what we are trying to classify
 
 occupation = generalisingSmallClasses(occupation, "other", 50)
 
-array_of_all_data = [surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
-
-printUniqueClassess(array_of_all_data, ["surname", "forename", "family_ID", "parish", "age", "sex", "relation_to_head_of_household", "marital_status", "occupation"])
-
-
 for i in range(0, len(surname)):
     surname[i] = "sur" + str(surname[i]).lower() + "sur"
     forename[i] = "fore" + str(forename[i]).lower() + "fore"
@@ -88,8 +83,12 @@ for i in range(0, len(surname)):
 
 
 array_of_all_data = [surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
+# array_of_all_data = [family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
 #surname = generalisingSmallClasses(surname, "other", 4)
+
 uniqueValues = printUniqueClassess(array_of_all_data, ["surname", "forename", "family_ID", "parish", "age", "sex", "relation_to_head_of_household", "marital_status", "occupation"])
+# uniqueValues = printUniqueClassess(array_of_all_data, ["family_ID", "parish", "age", "sex", "relation_to_head_of_household", "marital_status", "occupation"])
+print("unique values", len(uniqueValues))
 
 
 #make education contain only 4 possible numbers - 1 for read and write, 2 for read only, 3 for neither, and 4 for undefined
@@ -115,6 +114,7 @@ print("labels", len(labels))
 
 #generate feature vector (pass in a array for each of the raw data columns (should all be the same length))
 X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation], uniqueValues)
+# X = produce_input_feature([family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation], uniqueValues)
 
 
 # test model
@@ -124,20 +124,20 @@ indices = np.arange(len(labels))
 training_data, test_data = train_test_split(indices, test_size=0.2)
 
 print("---------------------------------------baseline models ----------------------------------------")
-#randomBaselineClassifier(labels)
-#modeBaselineClassifier(labels)
+randomBaselineClassifier(labels)
+# modeBaselineClassifier(labels)
 
 print("-------------------------------------- Linear SVM -----------------------------------------------------")
 #linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
-#optimsedLinearSVMClassifier(X[training_data], labels[training_data], X[test_data], labels[test_data])
+optimsedLinearSVMClassifier(X[training_data], labels[training_data], X[test_data], labels[test_data])
 
 print("-------------------------------------- Logistic Regression --------------------------------------------")
 #logistic_regression_model_cross_validation(X[training_data], labels[training_data])
-#train_chosen_logistic_regression_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
+train_chosen_logistic_regression_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
 print("-------------------------------------- Kernal SVM -----------------------------------------------------")
 #kernel_SVM_model_cross_validation(X[training_data], labels[training_data])
-#train_chosen_kernel_SVM_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
+train_chosen_kernel_SVM_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
 print("-------------------------------------- KNN ------------------------------------------------------------")
 #knn_model_cross_validation(X[training_data], labels[training_data])

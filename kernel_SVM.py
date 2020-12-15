@@ -15,7 +15,7 @@ def kernel_SVM_model_cross_validation(X_train, Y_train):
     precision_std_error = []
     c_range = [0.001, 0.01, 0.1, 1, 10, 100, 1000]
     for c_value in c_range:
-        model = svm.SVC(kernel="precomputed", C=c_value, max_iter=2000)
+        model = svm.SVC(kernel="precomputed", C=c_value, max_iter=5000)
         gram_train = np.dot(X_train, X_train.T)
         model.fit(gram_train, Y_train)
         scores = cross_val_score(model, gram_train, Y_train, cv=5, scoring="accuracy")

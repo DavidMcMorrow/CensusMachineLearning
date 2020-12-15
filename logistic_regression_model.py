@@ -40,7 +40,7 @@ def logistic_regression_model_cross_validation(X_train, Y_train):
 
 def train_chosen_logistic_regression_model(X_train, Y_train, C_value, X_test, Y_test):
     start = time.time()
-    model = LogisticRegression(penalty="l2", C=C_value, max_iter=2000)
+    model = LogisticRegression(penalty="l2", C=C_value, max_iter=5000)
     model.fit(X_train, Y_train)
     end = time.time()
     print("time to complete logistic regression training for C value ", C_value, " - ", round(end-start))

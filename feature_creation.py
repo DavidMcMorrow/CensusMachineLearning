@@ -3,21 +3,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
-import math as m
 from linearSVM import *
 from baseline import *
 from kernel_SVM import *
 from logistic_regression_model import *
 from knn import *
-from sklearn.metrics import accuracy_score, average_precision_score
 
 def produce_input_feature(list_of_inputs, uniqueValues):
     
-    #tokenise each of the input fields
     vectorizer = CountVectorizer()
     vectorizer.fit(uniqueValues)
-    
-    
     people = []
     for i in range(0, len(list_of_inputs[0])):
         person = []
@@ -33,11 +28,9 @@ def produce_input_feature(list_of_inputs, uniqueValues):
     X = []
     for input in feature_inputs:
         X.append(input[0])
-
     X = np.array(X)
     
     print("shape of X", X.shape)
-
     return X
 
 def printUniqueClassess(classesData, classesNames):
@@ -67,7 +60,10 @@ marital_status = df.iloc[:,7]
 occupation = df.iloc[:,8]
 education = df.iloc[:,9] #this is what we are trying to classify
 
+#check to see if making these blanks has an effect
 occupation = generalisingSmallClasses(occupation, "other", 50)
+surname = generalisingSmallClasses(occupation, "other", 20)
+forename = generalisingSmallClasses(occupation, "other", 20)
 
 for i in range(0, len(surname)):
     surname[i] = "sur" + str(surname[i]).lower() + "sur"
@@ -83,13 +79,8 @@ for i in range(0, len(surname)):
 
 
 array_of_all_data = [surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
-# array_of_all_data = [family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation]
-#surname = generalisingSmallClasses(surname, "other", 4)
-
 uniqueValues = printUniqueClassess(array_of_all_data, ["surname", "forename", "family_ID", "parish", "age", "sex", "relation_to_head_of_household", "marital_status", "occupation"])
-# uniqueValues = printUniqueClassess(array_of_all_data, ["family_ID", "parish", "age", "sex", "relation_to_head_of_household", "marital_status", "occupation"])
 print("unique values", len(uniqueValues))
-
 
 #make education contain only 4 possible numbers - 1 for read and write, 2 for read only, 3 for neither, and 4 for undefined
 number_of_each_Class = [0,0,0,0]
@@ -114,12 +105,9 @@ print("labels", len(labels))
 
 #generate feature vector (pass in a array for each of the raw data columns (should all be the same length))
 X = produce_input_feature([surname, forename, family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation], uniqueValues)
-# X = produce_input_feature([family_ID, parish, age, sex, relation_to_head_of_household, marital_status, occupation], uniqueValues)
-
 
 # test model
 from sklearn.model_selection import train_test_split
-
 indices = np.arange(len(labels))
 training_data, test_data = train_test_split(indices, test_size=0.2)
 
@@ -142,14 +130,3 @@ train_chosen_kernel_SVM_model(X[training_data], labels[training_data], 1, X[test
 print("-------------------------------------- KNN ------------------------------------------------------------")
 #knn_model_cross_validation(X[training_data], labels[training_data])
 train_chosen_knn_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
-
-
-# ------------------------------------------- NOTES ---------------------------------------------------------------
-#items which seemed to have biggest effect -> sex, relation to head of household, surname,marital status (kind of), parish kind of
-#similar accuracy when trained with sex, relation to head of household, surname, marital status ,parish as all
-#just surname does similar
-#altering max iterations and C value with all got an accuracy of 68% (66% when ran again)
-#was only ever training on approx. 7000 points because of the way I was splitting the data, achived accuracy of 70+ but takes a hell of a lot longer
-#73% on just [surname, forename, family_ID, relation_to_head_of_household, sex]
-#74% with all
-# training on all data now with each person recieving a single sparce vector containing all of their data

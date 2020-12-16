@@ -55,7 +55,7 @@ def generalisingSmallClasses(className, newValue, threshold):
             className[className == i] = newValue
     return className
     
-df = pd.read_csv("test_1851.csv", comment='#')
+df = pd.read_csv("1851_combined.csv", comment='#')
 surname = df.iloc[:,0]
 forename = df.iloc[:,1]
 family_ID = df.iloc[:,2]

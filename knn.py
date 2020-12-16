@@ -40,7 +40,6 @@ def knn_model_cross_validation(X_train, Y_train):
     plt.legend()
     plt.show()
 
-
 def train_chosen_knn_model(X_train, Y_train, gamma, X_test, Y_test):
 
     def gaussian_kernel(distances):

@@ -55,9 +55,3 @@ def printingConfusionMatrix(yTest, yPred):
 	print(classification_report(yTest, yPred))
 	print(confusion_matrix(yTest, yPred))
 	print("accuracy", accuracy_score(yTest, yPred))
-
-#notes
-#C = 0.001 gives similar accuracy to the baseline 56%
-#as C increases accuracy and precision increase quiclky to a C value of 1 before increasing more slowly
-#time taken to train each model increases as the C value increases
-#C = 1 seems to be the best choice for the model (everything after that is likely overfitting without much of an increase in performance)

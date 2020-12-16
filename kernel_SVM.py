@@ -8,7 +8,6 @@ from sklearn.metrics import accuracy_score
 import time
 
 def kernel_SVM_model_cross_validation(X_train, Y_train):
-    #need to do regression and then assign the output to the correct class
     mean_accuracy = []
     accuracy_std_error = []
     mean_precision = []
@@ -57,7 +56,3 @@ def printingConfusionMatrix(yTest, yPred):
 	print(classification_report(yTest, yPred))
 	print(confusion_matrix(yTest, yPred))
 	print("accuracy", accuracy_score(yTest, yPred))
-
-#C value of 1 gives best fit
-#cross validation takes a long time
-#training the models in general is very slow -> approx 50 seconds

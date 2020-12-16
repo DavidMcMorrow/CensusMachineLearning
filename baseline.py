@@ -14,8 +14,6 @@ def randomBaselineClassifier(testingOutput):
     print("time to complete random baseline classifier is: ", round(end-start))
     print("----------------------------------------")
     
-
-
 def modeBaselineClassifier(trainingOutput, testingOutput):
     start = time.time()
     mode = stats.mode(trainingOutput)
@@ -26,10 +24,7 @@ def modeBaselineClassifier(trainingOutput, testingOutput):
     print("time to complete most common baseline classifier is:", round(end-start))
     print("----------------------------------------")
 
-
 def printingConfusionMatrix(yTest, yPred):
 	print(classification_report(yTest, yPred))
 	print(confusion_matrix(yTest, yPred))
 	print("accuracy", accuracy_score(yTest, yPred))
-
-	

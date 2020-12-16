@@ -6,9 +6,6 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import precision_score, f1_score, recall_score, accuracy_score
 
-
-    
-
 def plottingCrossValidation(xData, accuracyData, accuracyErrorbars, precisionData, precisionErrorbars,xAxis, yAxis, title):
     plt.figure()
     plt.rc('font', size=18); plt.rcParams['figure.constrained_layout.use'] = True
@@ -17,7 +14,6 @@ def plottingCrossValidation(xData, accuracyData, accuracyErrorbars, precisionDat
     plt.xscale("log")
     plt.xlabel(xAxis); plt.ylabel(yAxis); plt.title(title)
     plt.legend(); plt.show()
-
 
 def linearSVMClassifierCrossValidation(training_x, training_y):
     print("trainingX", training_x)
@@ -59,5 +55,3 @@ def printingConfusionMatrix(yTest, yPred):
 	print(classification_report(yTest, yPred))
 	print(confusion_matrix(yTest, yPred))
 	print("accuracy", accuracy_score(yTest, yPred))
-        
-          

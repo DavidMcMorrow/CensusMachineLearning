@@ -32,14 +32,13 @@ def knn_model_cross_validation(X_train, Y_train):
         print(distance_parameters[i], ":   Accuracy - ", mean_accuracy[i], "  Error - ", accuracy_std_error[i], " Precision - ", mean_precision[i], " Error - ", precision_std_error[i])
 
     fig = plt.figure()
-    plt.title("γ Value vs Mean Accuracy With Standard Deviation KNN")
+    plt.title("KNN: Cross Validation, KFold = 5")
     plt.errorbar(distance_parameters, mean_accuracy, yerr=accuracy_std_error, color="b", label="Accuracy")
     plt.errorbar(distance_parameters, mean_precision, yerr=precision_std_error, color="orange", label="Precision")
     plt.xlabel("γ Values")
-    plt.ylabel("Mean Accuracy")
-    plt.legend()
+    plt.ylabel("Accuracy & Precision (%)")
+    plt.legend(loc = 'lower right')
     plt.show()
-
 
 def train_chosen_knn_model(X_train, Y_train, gamma, X_test, Y_test):
 

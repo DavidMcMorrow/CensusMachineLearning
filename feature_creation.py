@@ -112,21 +112,21 @@ indices = np.arange(len(labels))
 training_data, test_data = train_test_split(indices, test_size=0.2)
 
 print("---------------------------------------baseline models ----------------------------------------")
-randomBaselineClassifier(labels)
-# modeBaselineClassifier(labels)
+randomBaselineClassifier(labels[test_data])
+modeBaselineClassifier(labels[training_data], labels[test_data])
 
 print("-------------------------------------- Linear SVM -----------------------------------------------------")
-#linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
+linearSVMClassifierCrossValidation(X[training_data], labels[training_data])
 optimsedLinearSVMClassifier(X[training_data], labels[training_data], X[test_data], labels[test_data])
 
 print("-------------------------------------- Logistic Regression --------------------------------------------")
-#logistic_regression_model_cross_validation(X[training_data], labels[training_data])
-train_chosen_logistic_regression_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
+logistic_regression_model_cross_validation(X[training_data], labels[training_data])
+train_chosen_logistic_regression_model(X[training_data], labels[training_data], 0.1, X[test_data], labels[test_data])
 
 print("-------------------------------------- Kernal SVM -----------------------------------------------------")
-#kernel_SVM_model_cross_validation(X[training_data], labels[training_data])
+kernel_SVM_model_cross_validation(X[training_data], labels[training_data])
 train_chosen_kernel_SVM_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])
 
 print("-------------------------------------- KNN ------------------------------------------------------------")
-#knn_model_cross_validation(X[training_data], labels[training_data])
+knn_model_cross_validation(X[training_data], labels[training_data])
 train_chosen_knn_model(X[training_data], labels[training_data], 1, X[test_data], labels[test_data])

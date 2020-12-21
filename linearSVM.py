@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import precision_score, f1_score, recall_score, accuracy_score
+import time
 
 def plottingCrossValidation(xData, accuracyData, accuracyErrorbars, precisionData, precisionErrorbars,xAxis, yAxis, title):
     plt.figure()
@@ -43,13 +44,34 @@ def linearSVMClassifierCrossValidation(training_x, training_y):
     plottingCrossValidation(CValues, accuracyMeanError, accuracyStdError, precisionMeanError, precisionStdError, 'C Values', 'Accuracy & Precision (%)', plotTitle)
 
 def optimsedLinearSVMClassifier(training_x, training_y, testing_x, testing_y):
-    optimisedC = 10
+    start = time.time()
+    optimisedC = 1
     clf = LinearSVC(C = optimisedC, max_iter=2000)
     clf.fit(training_x, training_y)
+    end = time.time()
+    print("time to complete LinearSVC training for C value ", optimisedC, " - ", round(end-start))
+
+    start = time.time()
     yPred = clf.predict(testing_x)
+    end = time.time()
+    print("time to make LinearSVC predictions for C value ", optimisedC, " - ", round(end-start))
     print("--------title =", "LinearSVM", "C =", optimisedC, "------------")
     printingConfusionMatrix(testing_y, yPred)
     print("-----------------------")
+
+
+
+    # start = time.time()
+    # model = KNeighborsClassifier(n_neighbors=1000,weights=gaussian_kernel)
+    # model.fit(X_train, Y_train)
+    # end = time.time()
+    # print("time to complete Knn training for γ value ", gamma, " - ", round(end-start))
+    
+    # start = time.time()
+    # pred = model.predict(X_test)
+    # end = time.time()
+    # print("time to make knn predictions for γ value ", gamma, " - ", round(end-start))
+    # printingConfusionMatrix(Y_test, pred)
 
 def printingConfusionMatrix(yTest, yPred):
 	print(classification_report(yTest, yPred))
